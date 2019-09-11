@@ -1,50 +1,28 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title:  Neighbourhood Atlas
+image: /img/dragons.jpg
+heading: The COMENSI Method
+subheading: Revealing the life in a place
 mainpitch:
-  title: Why Kaldi
+  title: What is this COMENSI?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    COMENSI toolkit is addressed to adult education providers, public administrators, community managers and every professional interested in activating participatory processes of community engagement in challenging urban areas.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  The COMENSI toolkit is a collection of tools, methods and practices specifically designed and selected to improve the engagement of urban communities. It is written to support adult education providers, public administrators, community managers and every professional interested in activating participatory processes of community engagement in challenging urban settings.
+  
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/flag.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Community engagement, in this context, goes beyond simply ‘involving’ people. It relies on building ongoing, meaningful relationships between the community and organisations for mutually beneficial outcomes. It is a collaborative process between groups who are brought together as neighbours or through sharing a common interest or concern. It is a powerful vehicle for bringing about environmental and behavioural changes to improve the situation and wellbeing of the community.
+    - image: /img/baloons.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        The toolkit comprises three parts:
+
+        * The COMENSI method - an overarching approach to community engagement to guide projects from the embryonic stage of development through to completion and evaluation
+        * A collection of engagement methods, tools and techniques which include descriptions, guidelines and some practical use examples of where these have been applied
+        * Local Framework Scenarios    
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

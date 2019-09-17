@@ -5,6 +5,7 @@ module.exports = {
     title: 'COMENSI Neighbourbhood Atlas Platform',
     description:
       'A starter kit for building Neighbourhood Atlasses.',
+    mapboxApiKey: 'pk.eyJ1IjoiZ3JlZW5tYW4yMyIsImEiOiJjazBrMmMwMG8wYmppM2N0azdqcnZuZzVjIn0.jpODNTgb9TIxZ6yhZKnTvg'  
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -1,17 +1,17 @@
 ---
 templateKey: blog-post
 title: Limehouse Town Hall
-date:  2019-09-11
+date: 2019-09-11T00:00:00.000Z
+description: One of the last remaining Multi-Use spaces in London
 featuredpost: false
 featuredimage: /img/Grand-Hall.jpg
-description: One of the last remaining Multi-Use spaces in London
 tags:
   - london
   - space
 ---
 ![Grand Hall](/img/Grand-Hall.jpg)
 
-Limehouse Town Hall is a place where working artists and cultural producers, audiences and communities are supported to share ideas, try out new things, and imagine a better here and now.
+**Limehouse Town Hall is a place where working artists and cultural producers, audiences and communities are supported to share ideas, try out new things, and imagine a better here and now.**
 
 Housed in a grade II listed building, Limehouse Town Hall acts as a hub for creative and cultural activities. As one of the last remaining versatile and multi-purpose cultural spaces in the city, the town hall makes interesting things happen.
 

@@ -8,6 +8,7 @@ featuredimage: /img/Grand-Hall.jpg
 tags:
   - london
   - space
+location: '{"type":"Point","coordinates":[-0.0313997,51.5120713]}'
 ---
 ![Grand Hall](/img/Grand-Hall.jpg)
 

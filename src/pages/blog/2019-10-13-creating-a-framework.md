@@ -22,4 +22,18 @@ Part of what we need to achieve is handled by the [simple-styling](https://githu
 
 In order to develop our specification, we've created a practical operating prototype to gather data. The system is built on [Coda.io](https://coda.io), a tool for rapidly creating working apps. We're gathering real data from a community mapping session, and using it to build real geoJson output. The GeoJson output is currently uploaded to github where it can be viewed by the built in github map viewer.
 
-Through a series of iterations, we hope to finalise an effective specification to share, and to use as the foundation for all other work on the atlas platform. 
+Through a series of iterations, we hope to finalise an effective specification to share, and to use as the foundation for all other work on the atlas platform.
+
+Our GeoJSON specification will be published at https://github.com/community-atlas/comma-geoJson-spec
+
+### A Coda Demo
+
+The embed below shows some of the coda based data gathering tool. 
+
+<iframe src="https://coda.io/embed/g6LILBHNmE/_suH0X?viewMode=embedplay&hideSections=true" width=900 height=900 style="max-width: 100%;" allow="fullscreen"></iframe>
+
+### The testing map
+
+The data from Coda is uploaded to a testing repository on [github](https://github.com/the-greenman/community-atlas/blob/master/geojson/atlas1.geojson)
+
+

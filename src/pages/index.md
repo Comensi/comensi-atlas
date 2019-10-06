@@ -1,15 +1,22 @@
 ---
 templateKey: index-page
 title:  Neighbourhood Atlas
+subheading: COmmunity ENgagement for Social Inclusion (COMENSI)
 image: /img/dragons.jpg
-heading: The COMENSI Method
-subheading: Revealing the life in a place
+
 mainpitch:
-  title: What is this COMENSI?
+  title: The map becomes the the territory
   description: >
-    COMENSI toolkit is addressed to adult education providers, public administrators, community managers and every professional interested in activating participatory processes of community engagement in challenging urban areas.
+    As more and more of our world goes online, the information about an area increasingly comes to define that place. The act of creating a map changes the story told of a place, and in doing so, changes a little piece of reality. This ability to define what a neighbourhood is, what it's value is, what is important about it needs to be shared. 
+    
+    
+    The Neighbourhood Atlas platform is a tool that enables anyone to create, share and combine maps of places, in the hope that they too can take part in shaping their reality. 
+
+heading: The COMENSI Method
 description: >-
   The COMENSI toolkit is a collection of tools, methods and practices specifically designed and selected to improve the engagement of urban communities. It is written to support adult education providers, public administrators, community managers and every professional interested in activating participatory processes of community engagement in challenging urban settings.
+
+  This platform aims to extend the COMENSI method with practical digital tools for collecting and exploring information about neighbourhoods and places.  
   
 intro:
   blurbs:

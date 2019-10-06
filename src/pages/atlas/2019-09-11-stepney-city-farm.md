@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: atlas-node
 title: Stepney City Farm
 date: 2019-09-11 17:00
 featuredpost: false

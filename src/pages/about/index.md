@@ -16,3 +16,6 @@ prostoRož is a cultural association based in Ljubljana with a mission to improv
 BOND OF UNION, social cooperative that promote social development and inclusive processes through networking between civil society, third sector, PA. BOU vision is to develop local actions that commit citizens and PA in new and participative forms of urban regeneration. Non-formal education and international cooperation are BOU main tool. http://www.bondofunion.eu/
 
 TESSERAE is a platform to connect critical multidisciplinary research, education, art, communication and project development in the urban and social fields. Based in Berlin, Tesseræ works with local communities, independent and non-for profit organisations, as well as local, national and European institutions. http://www.tesserae.eu/
+
+ 
+  Co-funded by the Erasmus+ programme of the European Union

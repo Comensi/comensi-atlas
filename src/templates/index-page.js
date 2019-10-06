@@ -86,14 +86,14 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />              
+                 {/*<Features gridItems={intro.blurbs} />*/}         
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest atlas entries
+                    Latest project updates
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/atlas">
+                    <Link className="btn" to="/blog">
                       Read more
                     </Link>
                   </div>

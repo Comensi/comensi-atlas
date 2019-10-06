@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: atlas-node
 title: Limehouse Town Hall
 date: 2019-09-11T00:00:00.000Z
 description: One of the last remaining Multi-Use spaces in London

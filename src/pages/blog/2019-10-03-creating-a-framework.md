@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Establishing the foundations
-date: 2019-10-13
+date: 2019-10-03
 description: Creating an atlas
 featuredpost: false
 featuredimage: /img/coda.png
@@ -10,7 +10,7 @@ tags:
   - introduction
 
 ---
-![Grand Hall](/img/coda.png)
+![Coda](/img/coda.png)
 
 **The first technical stage of the atlas involves establishing our data schema. We are seeking to create as open a system as possible, and making sure that the underlying data is correct is the key.**
 

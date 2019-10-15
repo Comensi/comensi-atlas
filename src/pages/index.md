@@ -48,27 +48,30 @@ intro:
         and techniques which include descriptions, guidelines and some practical
         use examples of where these have been applied * Local Framework
         Scenarios    
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: Neighbourhood Atlas
+  description: >-
+
+    As more and more of our world goes online, the information about an area
+    increasingly comes to define that place. The act of creating a map changes
+    the story told of a place, and in doing so, changes a little piece of
+    reality. This ability to define what a neighbourhood is, what it's value is,
+    what is important about it needs to be shared. 
+
+
+    The Neighbourhood Atlas platform is a tool that enables anyone to create,
+    share and combine maps of places, in the hope that they too can take part in
+    shaping their reality. 
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: A data sharing standard
+  description: 'A simple, extensible format to share information related to neighbourhoods. '
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Flag
+    image: /img/Flag_of_Europe.svg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Hoops
+    image: /img/baloons.png
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Map
+    image: /img/dragons.jpg
 ---
 

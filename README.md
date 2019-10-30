@@ -2,9 +2,14 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)
 
-This repository contains a Gatsby website for https://www.community-atlas.net. Content for the site can be added via the CMS interface (https://www.community-atlas.net/admin), or you can go a bit deeper by checking out the source and running it locally. 
+This repository contains a [Gatsby](https://www.gatsbyjs.org) website for https://www.community-atlas.net. 
 
+## Adding content
 
+Content for the site can be added via the [CMS interface](https://www.community-atlas.net/admin). 
+You will need need to ask for access first. 
+
+Content can also be added as markdown files in the, or you can go a bit deeper by checking out the source and running it locally. For both of these methods, it's best to know a little about [Gatsby](https://www.gatsbyjs.org)
 
 
 ## Editing the base site

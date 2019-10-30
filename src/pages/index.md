@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Neighbourhood Atlas
-image: /img/dragons.jpg
+title: COMENSI - COMunity ENgagement for Social Inclusion.
+image: /img/comensi-logo-atlas-heavy-4x-1-.png
 heading: The COMENSI Method
-subheading: COMmunity ENgagement for Social Inclusion (COMENSI)
+subheading: A platform for neighbourhood atlases
 mainpitch:
   title: The map becomes the the territory
   description: >

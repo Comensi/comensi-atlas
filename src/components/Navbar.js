@@ -73,7 +73,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/the-greenman/comensi-atlas"
+                href="https://github.com/Comensi/comensi-atlas"
                 target="_blank"
                 rel="noopener noreferrer"
               >

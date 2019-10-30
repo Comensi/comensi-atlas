@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: COMENSI - COMunity ENgagement for Social Inclusion.
-image: /img/comensi-logo-atlas-heavy-4x-1-.png
+image: /img/comensiatlas.png
 heading: The COMENSI Method
 subheading: A platform for neighbourhood atlases
 mainpitch:
@@ -29,7 +29,7 @@ description: >-
   for collecting and exploring information about neighbourhoods and places.  
 intro:
   blurbs:
-    - image: /img/flag.png
+    - image: /img/comensiatlas.png
       text: >
         Community engagement, in this context, goes beyond simply ‘involving’
         people. It relies on building ongoing, meaningful relationships between

@@ -16,15 +16,18 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    <div className="logo-banner has-text-centered" >
+      <img src={ image.childImageSharp.fluid.src } alt ="Commensi Community Atlas" />
+    </div>
     <div
-      className="full-width-image margin-top-0"
-      style={{
+      className="margin-top-0"
+      /*style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        //backgroundAttachment: `fixed`,
-      }}
+        backgroundAttachment: `fixed`,
+      }}*/
     >
       <div
         style={{

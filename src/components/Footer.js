@@ -71,14 +71,8 @@ const Footer = class extends React.Component {
                         Blog
                       </Link>
                     </li>                    
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">                    
                     <li>   
-                    <a
+                      <a
                         className="navbar-item"
                         href="/admin/"
                         target="_blank"
@@ -89,6 +83,10 @@ const Footer = class extends React.Component {
                     </li>
                   </ul>
                 </section>
+              </div>
+              <div className="column is-4" style={{'font-size':'0.7em'}} >
+          The European Commission's support for the production of this publication does not constitute an endorsement of the contents, 
+          which reflect the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.                
               </div>
               <div className="column is-4 social">               
                 <a title="vimeo" href="https://vimeo.com/channels/1432859">

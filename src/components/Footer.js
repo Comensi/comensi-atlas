@@ -20,32 +20,32 @@ const Footer = class extends React.Component {
           <img
             src={logo_erusmus}
             alt="Erasmus"
-            style={{ 'max-width': '20em', 'max-height': '5em' }}
+            style={{ 'maxWidth': '20em', 'maxHeight': '5em' }}
           />
           <img
             src={logo}
             alt="Comensi"
-            style={{ 'max-width': '10em', 'max-height': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
           />
           <img
             src={logo_bond}
             alt="Bond of Union"
-            style={{ 'max-width': '10em', 'max-height': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
           />
           <img
             src={logo_tesserae}
             alt="Tesserae"
-            style={{ 'max-width': '10em', 'max-height': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
           />
           <img
             src={logo_4change}
             alt="4change"
-            style={{ 'max-width': '10em', 'max-height': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
           />
           <img
             src={logo_mapping}
             alt="Mapping for change"
-            style={{ 'max-width': '10em', 'max-height': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
           />      
       </div>
         <div className="content has-text-centered">
@@ -84,7 +84,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4" style={{'font-size':'0.7em'}} >
+              <div className="column is-4" style={{'fontSize':'0.7em'}} >
           The European Commission's support for the production of this publication does not constitute an endorsement of the contents, 
           which reflect the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.                
               </div>

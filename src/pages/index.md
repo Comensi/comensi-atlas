@@ -4,6 +4,17 @@ title: COMENSI - COMunity ENgagement for Social Inclusion.
 image: /img/comensiatlas.png
 heading: The COMENSI Method
 subheading: A platform for neighbourhood atlases
+description: >-
+  The COMENSI toolkit is a collection of tools, methods and practices
+  specifically designed and selected to improve the engagement of urban
+  communities. It is written to support adult education providers, public
+  administrators, community managers and every professional interested in
+  activating participatory processes of community engagement in challenging
+  urban settings.
+   
+  This platform aims to extend the COMENSI method with practical digital tools
+  for collecting and exploring information about neighbourhoods and places.  
+
 mainpitch:
   title: The map becomes the the territory
   description: >
@@ -17,37 +28,30 @@ mainpitch:
     The Neighbourhood Atlas platform is a tool that enables anyone to create,
     share and combine maps of places, in the hope that they too can take part in
     shaping their reality. 
-description: >-
-  The COMENSI toolkit is a collection of tools, methods and practices
-  specifically designed and selected to improve the engagement of urban
-  communities. It is written to support adult education providers, public
-  administrators, community managers and every professional interested in
-  activating participatory processes of community engagement in challenging
-  urban settings.
 
-  This platform aims to extend the COMENSI method with practical digital tools
-  for collecting and exploring information about neighbourhoods and places.  
 intro:
   blurbs:
-    - image: /img/comensiatlas.png
-      text: >
-        Community engagement, in this context, goes beyond simply ‘involving’
-        people. It relies on building ongoing, meaningful relationships between
-        the community and organisations for mutually beneficial outcomes. It is
-        a collaborative process between groups who are brought together as
-        neighbours or through sharing a common interest or concern. It is a
-        powerful vehicle for bringing about environmental and behavioural
-        changes to improve the situation and wellbeing of the community.
-    - image: /img/baloons.png
-      text: >
-        The toolkit comprises three parts:
+    - image: /img/tile-toolkit.png
+      title: Toolkit
+      text1: >
+        IO1 is a collection of tools on community engagement. 
+      text2: >
+        This is a second paragraph. 
+      linkText: Download the toolkit
+      link: hello
+    - image: /img/tile-atlas.png
+      title: Atlas
+      text1: >
+        IO2 is an online platform to organize and visualise the information collected.
+      text2: >
+        
+      linkText: Browse the atlases, atlas.community-atlas.net
+      link: https://atlas.community-atlas.net
+    - image: /img/tile-handbook.png
+      title: Handbook
+      text1: >
+        IO3 is a handbook
 
-        * The COMENSI method - an overarching approach to community engagement
-        to guide projects from the embryonic stage of development through to
-        completion and evaluation * A collection of engagement methods, tools
-        and techniques which include descriptions, guidelines and some practical
-        use examples of where these have been applied * Local Framework
-        Scenarios    
   heading: Neighbourhood Atlas
   description: >-
 

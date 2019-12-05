@@ -4,7 +4,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import { Link } from 'gatsby'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">    
+  <div className="featureGrid columns is-multiline">    
     {gridItems.map(item => (
       <div key={item.text1} className="column is-4">
         <section className="section">

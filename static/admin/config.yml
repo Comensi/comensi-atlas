@@ -27,8 +27,7 @@ collections:
     - file: "src/pages/index.md"
       label: "Landing Page"
       name: "index"
-      fields:
-      fields:
+      fields:      
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
         - {label: Title, name: title, widget: string, required: "false"}
         - {label: Image, name: image, widget: image , required: "false" }

@@ -7,24 +7,23 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/dragons.jpg')`,
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            Project blog
-          </h1>
-        </div>
+        <section className="section section--gradient">
+          <div className="container">           
+              <div className="intro">
+
+                <h1
+                  className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-2-widescreen"
+                  style={{
+                    lineHeight: '1',
+                    padding: '0.25em',
+                  }}
+                >
+                  Project blog
+                    </h1>
+
+              </div>          
+          </div>
+        </section>
         <section className="section">
           <div className="container">
             <div className="content">

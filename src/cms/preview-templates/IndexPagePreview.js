@@ -1,20 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import StructuredTemplate from '../../components/StructuredTemplate'
 
-const IndexPagePreview = ({ entry, getAsset }) => {
+const IndexPagePreview = ({ entry, getAsset, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
 
   if (data) {
     return (
-      <IndexPageTemplate
+      <StructuredTemplate
         image={data.image}
         title={data.title}
-        heading={data.heading}
-        subheading={data.subheading}
+        heading={data.heading}        
         description={data.description}
-        intro={data.intro || { blurbs: [] }}
-        mainpitch={data.mainpitch || {}}
+        intro={data.intro || { blurbs: [] }}     
+        content={widgetFor('body')}   
       />
     )
   } else {
@@ -27,6 +26,7 @@ IndexPagePreview.propTypes = {
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
+  widgetFor: PropTypes.func,
 }
 
 export default IndexPagePreview

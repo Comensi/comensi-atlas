@@ -1,8 +1,8 @@
 ---
-templateKey: about-page
+templateKey: outputs-page
 image: /img/comensiatlas.png
 title: 
-tagline: About
+tagline: Project delivery
 description: >-
   
     
@@ -36,9 +36,7 @@ intro:
       linkText: http://www.tesserae.eu/
       link: http://www.tesserae.eu/
     - title: Co-funded by the Erasmus+ programme of the European Union
-  heading: Partners
+  heading: Outputs
   description: >-
 ---
-Although the call for civic participation is clear within the strategies for community empowerment of deprived neighbourhoods, in reality, the intended beneficiaries rarely contribute. If policymakers could understand the needs and ideas of the most disadvantaged adults it could help to reduce their risk of social exclusion and provide benefit for the whole community. 
-
-The project **COmmunity ENgagement for Social Inclusion** (COMENSI) aims to understand why marginalised adults do not participate and what tools and strategies could be developed to change this and increase engagement. Project partners will work in five deprived EU urban neighbourhoods and create a network of adult educators and professionals to explore the problems and potential solutions. A toolkit and digital platform will be developed to help assess people’s needs and ideas for improving their neighbourhood and a physical community hub will be established to enable discussion and ongoing participation.
+Outputs

@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import { Link } from 'gatsby'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="featureGrid columns is-multiline">    
+  <div className="featureGrid columns is-multiline">
     {gridItems.map(item => (
       <div key={item.text1} className="column is-4">
         <section className="section">
@@ -21,7 +20,14 @@ const FeatureGrid = ({ gridItems }) => (
           </div>
           <p>{item.text1}</p>
           <p>{item.text2}</p>
-            <p><a  href={item.link}> {item.linkText}</a>
+          <p 
+            style={{
+              paddingTop: '1em'
+            }}
+          
+          ><a
+            className="has-text-weight-bold"
+            href={item.link}> {item.linkText}</a>
           </p>
         </section>
       </div>
@@ -38,7 +44,7 @@ FeatureGrid.propTypes = {
       text2: PropTypes.string,
       title: PropTypes.string,
       linkText: PropTypes.string,
-      
+
     })
   ),
 }

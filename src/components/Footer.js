@@ -6,7 +6,9 @@ import logo_tesserae from '../img/logo-tesserae.jpg'
 import logo_4change from '../img/logo-4change.png'
 import logo_mapping from '../img/logo-mapping.png'
 import logo_bond from '../img/logo_bond.png'
+import logo_prostoroz from '../img/logo-prostoroz.jpg'
 import logo_erusmus from '../img/logo-erasmusleft_en.jpg'
+
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -42,6 +44,11 @@ const Footer = class extends React.Component {
             alt="4change"
             style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
           />
+           <img
+            src={logo_prostoroz}
+            alt="4change"
+            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
+          />          
           <img
             src={logo_mapping}
             alt="Mapping for change"

@@ -4,87 +4,25 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
-
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-}) => (
-    <div>      
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-4">
-                <div className="intro">
-                <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{              
-              
-              lineHeight: '1',
-              padding: '0.25em',
-            }}
-          >
-            {title}
-          </h1>
-          <h3
-            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-            style={{
-              
-              lineHeight: '1',
-              padding: '0.25em',
-            }}
-          >
-            {subheading}
-          </h3>
-                </div>
-                <div className="content">            
-                      <h3 className="has-text-weight-semibold">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>                                      
-                </div>
-              </div>
-              <div className="column is-8">
-                {<Features gridItems={intro.blurbs} />}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  )
-
-IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
+import Content, { HTMLContent } from '../components/Content'
+import StructuredTemplate from '../components/StructuredTemplate'
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { markdownRemark: post } = data
+  //const { frontmatter } = data.markdownRemark
+  
 
   return (
     <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+      <StructuredTemplate
+        image={post.frontmatter.image}
+        title={post.frontmatter.title}        
+        tagline={post.frontmatter.tagline}      
+        description={post.frontmatter.description}
+        intro={post.frontmatter.intro}
+        content={post.html}
+        contentComponent={HTMLContent}
+  
       />
     </Layout>
   )
@@ -92,9 +30,7 @@ const IndexPage = ({ data }) => {
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
+    markdownRemark: PropTypes.object,
   }),
 }
 
@@ -103,23 +39,21 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      html
       frontmatter {
-        title
+        title        
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
-        }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
+        }        
+        tagline        
         description
         intro {
+          heading
+          description
           blurbs {
             title
             image {
@@ -134,8 +68,7 @@ export const pageQuery = graphql`
             linkText
             link
           }
-          heading
-          description
+          
         }
       }
     }

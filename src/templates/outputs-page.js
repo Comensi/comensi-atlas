@@ -7,7 +7,7 @@ import Features from '../components/Features'
 import Content, { HTMLContent } from '../components/Content'
 import StructuredTemplate from '../components/StructuredTemplate'
 
-const AboutPage = ({ data }) => {
+const OutputsPage = ({ data }) => {
   const { markdownRemark: post } = data
   //const { frontmatter } = data.markdownRemark
 
@@ -28,17 +28,17 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+OutputsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default AboutPage
+export default OutputsPage
 
 export const pageQuery = graphql`
-  query AboutPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
+  query OutputsPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "outputs-page" } }) {
       html
       frontmatter {
         title        

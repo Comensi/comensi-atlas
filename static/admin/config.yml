@@ -29,32 +29,32 @@ collections:
       name: "index"
       fields:      
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-        - {label: Title, name: title, widget: string, required: "false"}
-        - {label: Image, name: image, widget: image , required: "false" }
-        - {label: Tagline, name: tagline, widget: string, required: "false"}        
-        - {label: Description, name: description, widget: string , required: "false"}
-        - {label: Elements, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: "false"}, {label: Description, name: description, widget: text, required: "false"}, {label: Partner blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: "false"}, {label: Paragraph 1, name: text1, widget: text, required: "false"},{label: Paragraph 2, name: text2, widget: text, required: "false"},{label: Link text, name: linkText, widget: text, required: "false"},{label: Link url, name: linkUrl, widget: text, required: "false"}]}]}                
-        - {label: "Body", name: "body", widget: "markdown", required: "false"}
+        - {label: Title, name: title, widget: string, required: false}
+        - {label: Image, name: image, widget: image , required: false }
+        - {label: Tagline, name: tagline, widget: string, required: false}        
+        - {label: Description, name: description, widget: string , required: false}
+        - {label: Elements, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Partner blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
+        - {label: "Body", name: "body", widget: "markdown", required: false}
     - file: "src/pages/about/index.md"
       label: "About"
       name: "about"
       fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-        - {label: Title, name: title, widget: string, required: "false"}
-        - {label: Image, name: image, widget: image , required: "false" }
-        - {label: Tagline, name: tagline, widget: string, required: "false"}        
-        - {label: Description, name: description, widget: string , required: "false"}
-        - {label: Partners, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: "false"}, {label: Description, name: description, widget: text, required: "false"}, {label: Partner blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: "false"}, {label: Paragraph 1, name: text1, widget: text, required: "false"},{label: Paragraph 2, name: text2, widget: text, required: "false"},{label: Link text, name: linkText, widget: text, required: "false"},{label: Link url, name: linkUrl, widget: text, required: "false"}]}]}                
-        - {label: "Body", name: "body", widget: "markdown", required: "false"}
+        - {label: Title, name: title, widget: string, required: false}
+        - {label: Image, name: image, widget: image , required: false }
+        - {label: Tagline, name: tagline, widget: string, required: false}        
+        - {label: Description, name: description, widget: string , required: false}
+        - {label: Partners, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Partner blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
+        - {label: "Body", name: "body", widget: "markdown", required: false}
     - file: "src/pages/outputs/index.md"
       label: "Outputs"
       name: "outputs"
       fields:
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "outputs-page"}
-        - {label: Title, name: title, widget: string, required: "false"}
-        - {label: Image, name: image, widget: image , required: "false" }
-        - {label: Tagline, name: tagline, widget: string, required: "false"}        
-        - {label: Description, name: description, widget: string , required: "false"}
-        - {label: Outputs, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: "false"}, {label: Description, name: description, widget: text, required: "false"}, {label: Partner blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: "false"}, {label: Paragraph 1, name: text1, widget: text, required: "false"},{label: Paragraph 2, name: text2, widget: text, required: "false"},{label: Link text, name: linkText, widget: text, required: "false"},{label: Link url, name: linkUrl, widget: text, required: "false"}]}]}                
-        - {label: "Body", name: "body", widget: "markdown", required: "false"}
+        - {label: Title, name: title, widget: string, required: false}
+        - {label: Image, name: image, widget: image , required: false }
+        - {label: Tagline, name: tagline, widget: string, required: false}        
+        - {label: Description, name: description, widget: string , required: false}
+        - {label: Outputs, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Partner blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
+        - {label: "Body", name: "body", widget: "markdown", required: false}

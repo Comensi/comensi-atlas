@@ -49,8 +49,7 @@ collections:
     - file: "src/pages/outputs/index.md"
       label: "Outputs"
       name: "outputs"
-      fields:
-        fields:
+      fields:        
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "outputs-page"}
         - {label: Title, name: title, widget: string, required: false}
         - {label: Image, name: image, widget: image , required: false }

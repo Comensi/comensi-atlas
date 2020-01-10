@@ -5,7 +5,8 @@ tagline: Project delivery
 description: ''
 intro:
   blurbs:
-    - linkText: 'http://mappingforchange.org.uk/'
+    - linkText: Mapping for change
+      linkUrl: 'http://mappingforchange.org.uk/'
       text1: >+
         IO1    COMENSI Toolkit
 
@@ -17,11 +18,10 @@ intro:
 
         Link to PDF download
 
-      text2: |
-        IO2     COMENSI Atlas
-           
-         IO2 is an online platform to organise and visualise the information collected during the engagement and participatory  actions produced by the participants in the neighbourhoods.
-    - linkText: 'http://prostoroz.org/en/'
+      text2: |+
+
+    - linkText: Prostoroz
+      linkUrl: 'http://prostoroz.org/en/'
       text1: >
         prostoRož is a cultural association based in Ljubljana with a mission to
         improve public urban space. prostoRož explores public spaces in cities
@@ -30,9 +30,6 @@ intro:
         rearranges and revitalizes them according to the needs of residents and
         visitors. 
       text2: ''
-    - {}
-    - {}
-    - {}
   description: ''
   heading: Outputs
 ---

@@ -66,7 +66,7 @@ export const pageQuery = graphql`
             text1
             text2
             linkText
-            link
+            linkUrl
           }
           
         }

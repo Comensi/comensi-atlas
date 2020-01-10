@@ -27,7 +27,7 @@ const FeatureGrid = ({ gridItems }) => (
           
           ><a
             className="has-text-weight-bold"
-            href={item.link}> {item.linkText}</a>
+            href={item.linkUrl}> {item.linkText}</a>
           </p>
         </section>
       </div>
@@ -40,11 +40,10 @@ FeatureGrid.propTypes = {
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       linkUrl: PropTypes.string,
+      linkText: PropTypes.string,
       text1: PropTypes.string,
       text2: PropTypes.string,
-      title: PropTypes.string,
-      linkText: PropTypes.string,
-
+      title: PropTypes.string 
     })
   ),
 }

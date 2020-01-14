@@ -11,8 +11,7 @@ intro:
         A social enterprise owned by University College London. Founded in 2007
         with the mission to work with communities and organisations who want to
         understand, improve and produce information about the places that matter
-        to them.   
-      image:
+        to them.         
       title: Mapping For Change 
     - linkText: 'http://prostoroz.org/en/'
       linkUrl: 'http://prostoroz.org/en/'
@@ -22,8 +21,7 @@ intro:
         and their meaning for local residents and the society at large. The
         association pays attention to overlooked public spaces and organizes,
         rearranges and revitalizes them according to the needs of residents and
-        visitors.       
-      image:
+        visitors.             
       title: prostoRož
     - linkText: 'https://www.4change.org/'
       linkUrl: 'https://www.4change.org/'
@@ -32,8 +30,7 @@ intro:
         where all stakeholders collectively generate social impact. We share
         resources, processes, languages and metrics. As an organisation, we
         support social impact through consulting, capacity building, project
-        development and knowledge sharing. 
-      image:
+        development and knowledge sharing.       
       title: 4Change
     - linkText: 'http://www.bondofunion.eu/'
       linkUrl: 'http://www.bondofunion.eu/'
@@ -42,8 +39,7 @@ intro:
         and inclusive processes through networking between civil society, third
         sector, PA. BOU vision is to develop local actions that commit citizens
         and PA in new and participative forms of urban regeneration. Non-formal
-        education and international cooperation are BOU main tool. 
-      image:
+        education and international cooperation are BOU main tool.       
       title: Bond of Union
     - linkText: 'http://www.tesserae.eu/'
       linkUrl: 'http://www.tesserae.eu/'
@@ -52,8 +48,7 @@ intro:
         education, art, communication and project development in the urban and
         social fields. Based in Berlin, Tesseræ works with local communities,
         independent and non-for profit organisations, as well as local, national
-        and European institutions. 
-      image:
+        and European institutions.       
       title: Tesserae
   description: ''
   heading: Partners

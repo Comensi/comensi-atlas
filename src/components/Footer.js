@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo-comensi-darkandtransparent.png'
 import logo_tesserae from '../img/logo-tesserae.jpg'
 import logo_4change from '../img/logo-4change.png'
 import logo_mapping from '../img/logo-mapping.png'
@@ -23,11 +22,6 @@ const Footer = class extends React.Component {
             src={logo_erusmus}
             alt="Erasmus"
             style={{ 'maxWidth': '20em', 'maxHeight': '5em' }}
-          />
-          <img
-            src={logo}
-            alt="Comensi"
-            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
           />
           <img
             src={logo_bond}

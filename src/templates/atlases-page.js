@@ -67,7 +67,6 @@ export const pageQuery = graphql`
             linkText
             linkUrl
           }
-          
         }
       }
     }

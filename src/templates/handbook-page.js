@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import { HTMLContent } from '../components/Content'
+import Features from '../components/Features'
+import Content, { HTMLContent } from '../components/Content'
 import StructuredTemplate from '../components/StructuredTemplate'
 
-const AboutPage = ({ data }) => {
+const HandbookPage = ({ data }) => {
   const { markdownRemark: post } = data
   //const { frontmatter } = data.markdownRemark
 
@@ -27,17 +28,17 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+HandbookPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default AboutPage
+export default HandbookPage
 
 export const pageQuery = graphql`
-  query AboutPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
+  query HandbookPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "handbook-page" } }) {
       html
       frontmatter {
         title        
@@ -48,7 +49,7 @@ export const pageQuery = graphql`
             }
           }
         }        
-        tagline
+        tagline        
         description
         intro {
           heading
@@ -67,6 +68,7 @@ export const pageQuery = graphql`
             linkText
             linkUrl
           }
+          
         }
       }
     }

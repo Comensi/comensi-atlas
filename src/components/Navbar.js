@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/comensiatlas.png'
+import logo from '../img/comensi-logo.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -69,11 +69,14 @@ const Navbar = class extends React.Component {
              <Link className="navbar-item" to="/about">
                 About
               </Link>
+              <Link className="navbar-item" to="/toolkit">
+                Toolkit
+              </Link>
               <Link className="navbar-item" to="/atlases">
                 Atlases
               </Link>
-              <Link className="navbar-item" to="/outputs">
-                Outputs
+              <Link className="navbar-item" to="/handbook">
+                Handbook
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog

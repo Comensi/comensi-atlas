@@ -1,7 +1,7 @@
 ---
 templateKey: outputs-page
 image: /img/comensiatlas.png
-tagline: Outputs 
+tagline: Toolkit 
 description: ''
 intro:
   blurbs:

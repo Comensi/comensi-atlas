@@ -1,36 +1,23 @@
 ---
 templateKey: outputs-page
 image: /img/comensiatlas.png
-tagline: Project delivery
+tagline: Outputs 
 description: ''
 intro:
   blurbs:
-    - linkText: Mapping for change
-      linkUrl: 'http://mappingforchange.org.uk/'
+    - title: Toolkit
+      linkText: Download the toolkit
+      linkUrl: 'https://www.dropbox.com/s/go82ygtku4lofgb/COMENSI_X_web.pdf?dl=0'
       text1: >+
-        IO1    COMENSI Toolkit
-
-
-        IO1 is a collection of tools on community engagement designed for a
-        target of adults living in   deprived urban areas. It includes the
-        description of the general methodology and a detailed description of
-        exercises selected by the partners.  
-
-        Link to PDF download
-
+        A collection of tools for community engagement chosen to work with adults living in underprivileged urban areas. It includes a description of the general methodology and a detailed description of exercises selected by the different partners.
       text2: |+
-
-    - linkText: Prostoroz
-      linkUrl: 'http://prostoroz.org/en/'
+    - title: Atlases
+      linkText: Explore the atlases
+      linkUrl: 'atlases'
       text1: >
-        prostoRož is a cultural association based in Ljubljana with a mission to
-        improve public urban space. prostoRož explores public spaces in cities
-        and their meaning for local residents and the society at large. The
-        association pays attention to overlooked public spaces and organizes,
-        rearranges and revitalizes them according to the needs of residents and
-        visitors. 
+        An online platform to organise and visualise the information collected during the engagement and participatory actions produced by the participants in five EU challenging neighbourhoods.
       text2: ''
   description: ''
   heading: Outputs
 ---
-The COMENSI project foresees three intellectual outputs set to be tested during pilot laboratories in five European neighbourhoods.
+The COMENSI project will produce three outputs: a toolkit with information to initiate engagement processes in challenging neighbourhoods; the Atlas, conceived to support organisations working with disadvantaged adults and the Neighbourhood Hub Handbook with guidelines for both existing and new local spaces to become Neighbourhood Hubs. 

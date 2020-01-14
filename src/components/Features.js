@@ -8,7 +8,7 @@ const FeatureGrid = ({ gridItems }) => (
       <div key={item.text1} className="column is-4">
         <section className="section">
           <div className="">
-            <h3>{item.title}</h3>
+            {item.title && <h3>{item.title}</h3>}
             <div
               style={{
                 width: '100%',
@@ -38,12 +38,13 @@ const FeatureGrid = ({ gridItems }) => (
 FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
+      title: PropTypes.string,
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       linkUrl: PropTypes.string,
       linkText: PropTypes.string,
       text1: PropTypes.string,
       text2: PropTypes.string,
-      title: PropTypes.string 
+      
     })
   ),
 }

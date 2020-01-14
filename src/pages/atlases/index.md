@@ -4,18 +4,24 @@ image: /img/comensiatlas.png
 tagline: Atlases
 description: ''
 intro:
-  blurbs:
+  blurbs:    
+    - linkText: Mehringplatz Anknipsen - Südliche Friedrichstadt, Berlin
+      linkUrl: 'http://mehringplatz-de.community-atlas.net'      
     - linkText: Mehringplatz - English atlas
-      linkUrl: 'http://mehringplatz-de.community-atlas.net'
-      text1: |
-        Mehringplatz - English 
-    - linkText: Mehringplatz - German
-      linkUrl: 'http://mehringplatz-de.community-atlas.net'
-      text1: ''
-      text2: ''
+      linkUrl: 'http://mehringplatz-en.community-atlas.net'      
     - linkText: Palermo
-      linkUrl: palermo.community-atlas.net
+      linkUrl: http://palermo.community-atlas.net
+    - linkText: Savskonaselje
+      linkUrl: https://savskonaselje.community-atlas.net/
+    - linkText: Bairro da Ajuda
+      linkUrl: https://bairrodaajuda.community-atlas.net/
+    - linkText: Mildmay
+      linkUrl: https://mildmay.community-atlas.net/
+
+    
+
   description: ''
   heading: Atlases
 ---
-The project atlases
+This section is the first prototype of community atlas tested in five neighbourhoods. Each atlas is available in the local language and has been designed to fulfil the requirements of each context.
+

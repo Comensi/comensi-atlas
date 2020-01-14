@@ -33,7 +33,7 @@ collections:
         - {label: Image, name: image, widget: image , required: false }
         - {label: Tagline, name: tagline, widget: string, required: false}        
         - {label: Description, name: description, widget: string , required: false}
-        - {label: Elements, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
+        - {label: Elements, name: intro, widget: object, fields: [{label: Heading, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
         - {label: "Body", name: "body", widget: "markdown", required: false}
     - file: "src/pages/about/index.md"
       label: "About"
@@ -44,7 +44,7 @@ collections:
         - {label: Image, name: image, widget: image , required: false }
         - {label: Tagline, name: tagline, widget: string, required: false}        
         - {label: Description, name: description, widget: string , required: false}
-        - {label: Partners, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
+        - {label: Partners, name: intro, widget: object, fields: [{label: Heading, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
         - {label: "Body", name: "body", widget: "markdown", required: false}
     - file: "src/pages/outputs/index.md"
       label: "Outputs"
@@ -55,7 +55,7 @@ collections:
         - {label: Image, name: image, widget: image , required: false }
         - {label: Tagline, name: tagline, widget: string, required: false}        
         - {label: Description, name: description, widget: string , required: false}
-        - {label: Outputs, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
+        - {label: Outputs, name: intro, widget: object, fields: [{label: Heading, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
         - {label: "Body", name: "body", widget: "markdown", required: false}
     - file: "src/pages/atlases/index.md"
       label: "Atlases"
@@ -66,6 +66,6 @@ collections:
         - {label: Image, name: image, widget: image , required: false }
         - {label: Tagline, name: tagline, widget: string, required: false}        
         - {label: Description, name: description, widget: string , required: false}
-        - {label: Atlases, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
+        - {label: Atlases, name: intro, widget: object, fields: [{label: Heading, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, required: false}, {label: Paragraph 1, name: text1, widget: text, required: false},{label: Paragraph 2, name: text2, widget: text, required: false},{label: Link text, name: linkText, widget: text, required: false},{label: Link url, name: linkUrl, widget: text, required: false}]}]}                
         - {label: "Body", name: "body", widget: "markdown", required: false}
         

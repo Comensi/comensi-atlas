@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { Graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import StructuredTemplate from '../components/StructuredTemplate'
 
 const AboutPage = ({ data }) => {
@@ -49,7 +48,7 @@ export const pageQuery = graphql`
             }
           }
         }        
-        tagline        
+        tagline
         description
         intro {
           heading
@@ -68,7 +67,6 @@ export const pageQuery = graphql`
             linkText
             linkUrl
           }
-          
         }
       }
     }

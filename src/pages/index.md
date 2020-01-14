@@ -1,12 +1,23 @@
 ---
 templateKey: index-page
 image: /img/comensiatlas.png
-tagline: Community Engagement for Social Inclusion
+tagline: The map becomes the territory
 description: ''
 intro:
   blurbs:
-    - image: /img/atlas-only-heavy.png
-      text1: 'The Community Atlas is a a toolkit for creating online maps. '
+    - title: Toolkit
+      image: /img/atlas-only-heavy.png
+      text1: 'The Comensi toolkit'
+      linkText: The toolkit
+      linkUrl: outputs
+    - title: Atlases
+      image: /img/atlas-only-heavy.png
+      text1: 'The atlases'  
+      linkText: The atlases
+      linkUrl: atlases
+    - title: Handbook
+      image: /img/atlas-only-heavy.png
+      text1: 'The heighbourhood hub handbook'  
   description: ''
 ---
-COMENSI combines tools, methods and practices specifically designed and selected to improve the engagement of urban communities. Our Toolkit is written to support adult education providers, public administrators, community managers and every professional interested in activating participatory processes of community engagement in challenging urban settings. This platform aims to extend the COMENSI method with practical digital tools for collecting and exploring information about neighbourhoods and places. The Neighbourhood Atlas is a tool that enables anyone to create, share and combine maps of places, chronograms and  collections of documents in the hope that they too can take part in shaping their reality.
+The EU-funded project COmmunity ENgagement for Social Inclusion (COMENSI) combines tools, methods and practices aimed to improve the engagement of people living in disadvantaged urban communities. The project partners will test the method included in the Toolkit -which supports adult education providers, public administrators, community managers and other professionals to initiate participatory processes- in five challenging EU urban neighbourhoods. These practical experiences will be collated in the Atlas, a platform which enables to create, share and combine maps of places, timelines and collections of documents to support engagement. The final findings and recommendations will be shared in the Neighbourhood Hub Handbook.

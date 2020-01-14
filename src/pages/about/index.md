@@ -13,6 +13,7 @@ intro:
         understand, improve and produce information about the places that matter
         to them.   
       image:
+      title: Mapping For Change 
     - linkText: 'http://prostoroz.org/en/'
       linkUrl: 'http://prostoroz.org/en/'
       text1: >
@@ -21,9 +22,9 @@ intro:
         and their meaning for local residents and the society at large. The
         association pays attention to overlooked public spaces and organizes,
         rearranges and revitalizes them according to the needs of residents and
-        visitors. 
-      text2: ''
+        visitors.       
       image:
+      title: prostoRož
     - linkText: 'https://www.4change.org/'
       linkUrl: 'https://www.4change.org/'
       text1: >
@@ -32,7 +33,8 @@ intro:
         resources, processes, languages and metrics. As an organisation, we
         support social impact through consulting, capacity building, project
         development and knowledge sharing. 
-        image:
+      image:
+      title: 4Change
     - linkText: 'http://www.bondofunion.eu/'
       linkUrl: 'http://www.bondofunion.eu/'
       text1: >
@@ -41,7 +43,8 @@ intro:
         sector, PA. BOU vision is to develop local actions that commit citizens
         and PA in new and participative forms of urban regeneration. Non-formal
         education and international cooperation are BOU main tool. 
-        image:
+      image:
+      title: Bond of Union
     - linkText: 'http://www.tesserae.eu/'
       linkUrl: 'http://www.tesserae.eu/'
       text1: >
@@ -51,9 +54,8 @@ intro:
         independent and non-for profit organisations, as well as local, national
         and European institutions. 
       image:
+      title: Tesserae
   description: ''
   heading: Partners
 ---
-Although the call for civic participation is clear within the strategies for community empowerment of deprived neighbourhoods, in reality, the intended beneficiaries rarely contribute. If policymakers could understand the needs and ideas of the most disadvantaged adults it could help to reduce their risk of social exclusion and provide benefit for the whole community. 
-
-The project **COmmunity ENgagement for Social Inclusion** (COMENSI) aims to understand why marginalised adults do not participate and what tools and strategies could be developed to change this and increase engagement. Project partners will work in five deprived EU urban neighbourhoods and create a network of adult educators and professionals to explore the problems and potential solutions.
+Strategies for community empowerment in underprivileged neighbourhoods usually include calls for civic participation, however, the intended beneficiaries rarely contribute. If the needs and ideas of the most disadvantaged adults were taken into account, these could help to reduce their risk of social exclusion while providing benefit for the whole community. The project COmmunity ENgagement for Social Inclusion (COMENSI) aims to understand why marginalised adults do not participate and what tools and strategies could be developed to revert this situation. Project partners will work in five challenging EU urban neighbourhoods to create a network of adult educators and professionals to explore the problems and potential solutions.

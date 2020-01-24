@@ -11,7 +11,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    'gatsby-plugin-sass',    
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -36,8 +36,19 @@ module.exports = {
     },
     {
       resolve: 'gatsby-transformer-remark',
-      options: {
+      options: {        
+        "excerpt_separator": `<!-- end -->`,        
         plugins: [
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+                maxWidth: 800,
+                ratio: 1.77, 
+                height: 400, 
+                related: false,
+                noIframeBorder: true
+            },
+          },
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
@@ -58,9 +69,23 @@ module.exports = {
             options: {
               destinationDir: 'static',
             },
-          },
+          },          
         ],
       },
+    },    
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        defaultCrumb: {
+          location: {
+            pathname: "/",
+          },
+          crumbLabel: "Home",
+          crumbSeparator: " - ",
+      },
+        // required to enable classNames
+        useClassNames: true,
+     },
     },
     {
       resolve: 'gatsby-plugin-netlify-cms',

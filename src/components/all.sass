@@ -10,14 +10,22 @@ $body-color: #333
 $black: #2b2523
 
 
+@import "~bulma"
+
+
 [aria-current]
   color: $comensi-red !important
 
 body 
   background-image: url("/img/background.png")
 
+a 
+  color: #000
+  text-decoration: underline solid $comensi-red
+
+
 .navbar 
-  min-height: 300px
+  min-height: 200px
   background-color: transparent !important
 
 .navbar .navbar-menu
@@ -25,21 +33,20 @@ body
   .navbar-item
     font-size: 1.4em
     font-weight: bold
+  a   
+    text-decoration: none
+
     
 
 .features
   h2 
     font-size: 1.4em
+    font-weight: bold  
+  h3, .title 
+    font-size: 1.4em
     font-weight: bold
-  .featureGrid 
-    h3 
-      font-size: 1.4em
-      font-weight: bold
   .section 
     padding: 1rem 0.5rem
-  a 
-    color: #000
-    text-decoration: underline solid $comensi-red
 
 
 
@@ -147,14 +154,12 @@ $menu-label-color: $white-ter
 .blog-list-item.is-featured
   background-color: #d6400033;
 .blog-list-item header
-  display: flex;
+//  display: flex;
   margin-bottom: 1em;
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
+//  flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
-
-@import "~bulma"
 
 
 // responsiveness

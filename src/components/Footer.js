@@ -17,37 +17,63 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer 1 has-text-white-ter">
-         <div className="logobar">
+         <div className="logobar">          
           <img
             src={logo_erusmus}
             alt="Erasmus"
-            style={{ 'maxWidth': '20em', 'maxHeight': '5em' }}
+            style={{ 'maxWidth': '20em', 'maxHeight': '3em', 'padding-left':'1em' }}
           />
+          <a 
+            href="http://www.bondofunion.eu/"
+            target="_blank"
+            >
           <img
             src={logo_bond}
             alt="Bond of Union"
-            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
           />
+          </a>
+          <a 
+            href="http://www.tesserae.eu/"
+            target="_blank"
+            >
           <img
             src={logo_tesserae}
             alt="Tesserae"
-            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
           />
+          </a>
+          <a 
+            href="https://www.4change.org/"
+            target="_blank"
+            >
+        
           <img
             src={logo_4change}
             alt="4change"
-            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
           />
+          </a>
+          <a 
+            href="http://prostoroz.org/en/"
+            target="_blank"
+            >        
            <img
             src={logo_prostoroz}
             alt="4change"
-            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
-          />          
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
+          /> 
+          </a>
+          <a 
+            href="http://mappingforchange.org.uk/"
+            target="_blank"
+            >                 
           <img
             src={logo_mapping}
             alt="Mapping for change"
-            style={{ 'maxWidth': '10em', 'maxHeight': '5em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
           />      
+          </a>
       </div>
         <div className="content has-text-centered">
         </div>

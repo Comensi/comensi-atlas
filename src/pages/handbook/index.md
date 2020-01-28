@@ -1,6 +1,5 @@
 ---
 templateKey: outputs-page
-image: /img/comensiatlas.png
 tagline: Handbook 
 description: ''
 intro:

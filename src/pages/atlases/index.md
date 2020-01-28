@@ -18,7 +18,7 @@ intro:
     - linkText: Mildmay
       linkUrl: https://mildmay.community-atlas.net/
   description: ''
-  heading: Atlases
+  heading: ''
 ---
 This section is the first prototype of community atlas tested in five neighbourhoods. Each atlas is available in the local language and has been designed to fulfil the requirements of each context.
 

@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
-import Layout from './Layout'
 import Features from './Features'
 import Content, { HTMLContent } from './Content'
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 export const StructuredTemplate = ({
   image,
@@ -48,7 +47,15 @@ export const StructuredTemplate = ({
                     </h3>
                   }
                 </div>
-                <div className="content">
+                <div
+              style={{
+                width: '100%',
+                display: 'inline-block',
+              }}
+            >
+            {image &&  <PreviewCompatibleImage imageInfo={image} /> }
+            </div>
+                <div className="content">                  
                   <p>{description}</p>
                   <PostContent content={content} />
                 </div>

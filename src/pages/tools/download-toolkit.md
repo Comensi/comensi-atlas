@@ -1,10 +1,10 @@
 ---
 templateKey: tool-post
+sticky: 1
 title: Comensi Toolkit 
 date: 2020-01-23
 description: Download the Comensi toolkit
 featuredpost: true
-featuredimage: /img/tile-toolkit.png
 tags: 
   - toolkit
   - downloads

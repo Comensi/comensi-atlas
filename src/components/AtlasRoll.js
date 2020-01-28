@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class ToolRoll extends React.Component {
+class AtlasRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -25,10 +25,7 @@ class ToolRoll extends React.Component {
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
-                    </Link>                    
-                    <span className="is-block post-date" style={{ 'font-size': '0.7em'}} >
-                      {post.frontmatter.date}
-                    </span>
+                    </Link>                                        
                   </p>
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
@@ -57,7 +54,7 @@ class ToolRoll extends React.Component {
   }
 }
 
-ToolRoll.propTypes = {
+AtlasRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -68,14 +65,14 @@ ToolRoll.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query ToolRollQuery {
+      query AtlasRollQuery {
         allMarkdownRemark(
-          sort: { order: [DESC,DESC], fields: [frontmatter___sticky,frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "tool-post" } } }
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "atlas-post" } } }
         ) {
           edges {
             node {
-              excerpt(pruneLength: 200)
+              excerpt(pruneLength: 400)
               id
               fields {
                 slug
@@ -83,7 +80,6 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                sticky
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage {
@@ -99,6 +95,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <ToolRoll data={data} count={count} />}
+    render={(data, count) => <AtlasRoll data={data} count={count} />}
   />
 )

@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const ToolPostTemplate = ({
+export const AtlasPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -22,7 +22,7 @@ export const ToolPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <Link to='/tools'> &lt; Toolkit</Link>
+            <Link to='/atlases'> &lt; Atlases</Link>
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
@@ -47,7 +47,7 @@ export const ToolPostTemplate = ({
   )
 }
 
-ToolPostTemplate.propTypes = {
+AtlasPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -55,12 +55,12 @@ ToolPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const ToolPost = ({ data }) => {
+const AtlasPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <ToolPostTemplate
+      <AtlasPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -80,22 +80,21 @@ const ToolPost = ({ data }) => {
   )
 }
 
-ToolPost.propTypes = {
+AtlasPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default ToolPost
+export default AtlasPost
 
 export const pageQuery = graphql`
-  query ToolPostByID($id: String!) {
+  query AtlasPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        sticky
         title
         description
         tags

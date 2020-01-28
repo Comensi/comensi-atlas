@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import Content, { HTMLContent } from '../components/Content'
 import StructuredTemplate from '../components/StructuredTemplate'
 

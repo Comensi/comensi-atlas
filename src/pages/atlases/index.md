@@ -17,9 +17,6 @@ intro:
       linkUrl: https://bairrodaajuda.community-atlas.net/
     - linkText: Mildmay
       linkUrl: https://mildmay.community-atlas.net/
-
-    
-
   description: ''
   heading: Atlases
 ---

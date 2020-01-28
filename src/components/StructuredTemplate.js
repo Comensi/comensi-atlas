@@ -53,13 +53,14 @@ export const StructuredTemplate = ({
                   <PostContent content={content} />
                 </div>
               </div>
+              {intro.blurbs && 
               <div className="features column is-8">
                 {intro.heading && <h3
                   className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 >{intro.heading}</h3>}
                 {intro.description && <p>{intro.description}</p>}
                 {<Features gridItems={intro.blurbs} />}
-              </div>
+                </div> }
             </div>
           </div>
         </div>

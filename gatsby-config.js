@@ -85,8 +85,7 @@ module.exports = {
       options: {
         path: `${__dirname}/src/intl`,
         languages: supportedLanguages,
-        defaultLanguage: defaultLanguage,
-        // This prevents gatsby-plugin-intl from auto-redirecting to default language versions
+        defaultLanguage: defaultLanguage,        
         redirect: true,
       },
     }, 

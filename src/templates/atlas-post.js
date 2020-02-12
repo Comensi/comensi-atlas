@@ -2,9 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 export const AtlasPostTemplate = ({
   content,
@@ -22,7 +23,7 @@ export const AtlasPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <Link to='/atlases'> &lt; Atlases</Link>
+            <Link to='/atlases'> &lt; <FormattedMessage id="menu-atlases"></FormattedMessage></Link>
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
@@ -89,8 +90,8 @@ AtlasPost.propTypes = {
 export default AtlasPost
 
 export const pageQuery = graphql`
-  query AtlasPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query AtlasPostByID($id: String!, $locale:String) {
+    markdownRemark(id: { eq: $id }, frontmatter: {language: {eq: $locale}}) {
       id
       html
       frontmatter {
@@ -98,6 +99,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        language
       }
     }
   }

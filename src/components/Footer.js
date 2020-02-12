@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
 import logo_tesserae from '../img/logo-tesserae.jpg'
 import logo_4change from '../img/logo-4change.png'
 import logo_mapping from '../img/logo-mapping.png'
@@ -13,6 +11,8 @@ import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
 
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+
 const Footer = class extends React.Component {
   render() {
     return (
@@ -21,7 +21,7 @@ const Footer = class extends React.Component {
           <img
             src={logo_erusmus}
             alt="Erasmus"
-            style={{ 'maxWidth': '20em', 'maxHeight': '3em', 'padding-left':'1em' }}
+            style={{ 'maxWidth': '20em', 'maxHeight': '3em', 'paddingLeft':'1em' }}
           />
           <a 
             href="http://www.bondofunion.eu/"
@@ -30,7 +30,7 @@ const Footer = class extends React.Component {
           <img
             src={logo_bond}
             alt="Bond of Union"
-            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'paddingLeft':'1em' }}
           />
           </a>
           <a 
@@ -40,7 +40,7 @@ const Footer = class extends React.Component {
           <img
             src={logo_tesserae}
             alt="Tesserae"
-            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'paddingLeft':'1em' }}
           />
           </a>
           <a 
@@ -51,7 +51,7 @@ const Footer = class extends React.Component {
           <img
             src={logo_4change}
             alt="4change"
-            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'paddingLeft':'1em' }}
           />
           </a>
           <a 
@@ -61,7 +61,7 @@ const Footer = class extends React.Component {
            <img
             src={logo_prostoroz}
             alt="4change"
-            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'paddingLeft':'1em' }}
           /> 
           </a>
           <a 
@@ -71,7 +71,7 @@ const Footer = class extends React.Component {
           <img
             src={logo_mapping}
             alt="Mapping for change"
-            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'padding-left':'1em' }}
+            style={{ 'maxWidth': '10em', 'maxHeight': '3em', 'paddingLeft':'1em' }}
           />      
           </a>
       </div>
@@ -97,8 +97,7 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4" style={{'fontSize':'0.7em'}} >
-          The European Commission's support for the production of this publication does not constitute an endorsement of the contents, 
-          which reflect the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.                
+                 <FormattedMessage id="footer-disclaimer" />
               </div>
               <div className="column is-4 social">               
                 <a title="vimeo" href="https://vimeo.com/channels/1432859">

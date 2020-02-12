@@ -2,9 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 export const PartnerPostTemplate = ({
   content,
@@ -22,7 +23,7 @@ export const PartnerPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <Link to='/partners'> &lt; Partners</Link>
+            <Link to='/partners'> &lt; <FormattedMessage id="menu-about"/></Link>
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>

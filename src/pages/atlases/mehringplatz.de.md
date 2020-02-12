@@ -1,8 +1,8 @@
 ---
 templateKey: atlas-post
-title: Mehringplatz Anknipsen
+title: Mehringplatz Anknipsen (DE)
 featuredpost: false
-language: en
+language: de
 
 ---
 <!-- end -->

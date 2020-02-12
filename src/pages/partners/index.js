@@ -1,39 +1,24 @@
 import React from 'react'
-
+import PropTypes from 'prop-types'
 import Layout from '../../components/Layout'
-import PartnerRoll from '../../components/PartnerRoll'
+import PreviewCompatibleImage from '../../components/PreviewCompatibleImage'
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
-export default class PartnerIndexPage extends React.Component {
-  render() {
-    let title=null
-    let tagline="About"
-    let description = 'Strategies for community empowerment in underprivileged neighbourhoods usually include calls for civic participation, however, the intended beneficiaries rarely contribute. If the needs and ideas of the most disadvantaged adults were taken into account, these could help to reduce their risk of social exclusion while providing benefit for the whole community. The project COmmunity ENgagement for Social Inclusion (COMENSI) aims to understand why marginalised adults do not participate and what tools and strategies could be developed to revert this situation. Project partners will work in five challenging EU urban neighbourhoods to create a network of adult educators and professionals to explore the problems and potential solutions.'
-    let intro = {
-      'heading': null,
-      'description' : null,
-    }
-    return (
-      <Layout>
-        <div>
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-4">
+export const PartnersIndexPage = ({ data, intl }) => {
+  const { edges: posts } = data.allMarkdownRemark
+  const titleKey = "partners-title"
+  const descriptionKey = "partners-description"
 
-                <div className="intro">
-                  {title &&
-                    <h1
-                      className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-2-widescreen"
-                      style={{
-                        lineHeight: '1',
-                        padding: '0.25em',
-                      }}
-                    >
-                      {title}
-                    </h1>
-                  }
-                  {tagline &&
+  return (
+    <Layout>
+      <div>
+        <section className="section section--gradient">
+          <div className="container">
+            <div className="section">
+              <div className="columns">
+                <div className="column is-4">
+
+                  <div className="intro">
                     <h3
                       className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                       style={{
@@ -41,27 +26,102 @@ export default class PartnerIndexPage extends React.Component {
                         padding: '0.25em',
                       }}
                     >
-                      {tagline}
+                      <FormattedMessage id={titleKey} />
                     </h3>
-                  }
+                  </div>
+                  <div className="content">
+                    <p><FormattedMessage id={descriptionKey} /></p>
+                  </div>
                 </div>
-                <div className="content">
-                  <p>{description}</p>                 
+                <div className="features column is-8">
+                  <div className="articleGrid columns is-multiline">
+                    {posts &&
+                      posts.map(({ node: post }) => (
+                        <div className="is-parent column is-6" key={post.id}>
+                          <article
+                            className={` ${
+                              post.frontmatter.featuredpost ? 'is-featured' : ''
+                              }`}
+                          >
+                            <header>
+                              <p className="post-meta">
+                                <Link
+                                  className="title is-size-5"
+                                  to={post.fields.slug}
+                                >
+                                  {post.frontmatter.title}
+                                </Link>
+                              </p>
+                              {post.frontmatter.featuredimage ? (
+                                <div className="featured-thumbnail">
+                                  <PreviewCompatibleImage
+                                    imageInfo={{
+                                      image: post.frontmatter.featuredimage,
+                                      alt: `featured image thumbnail for post ${
+                                        post.title
+                                        }`,
+                                    }}
+                                  />
+                                </div>
+                              ) : null}
+
+                            </header>
+                            <p>
+                              {post.excerpt}
+                              <br />
+                              <br />
+                            </p>
+                          </article>
+                        </div>
+                      ))}
+                  </div>
                 </div>
-              </div>
-              <div className="features column is-8">
-                {intro.heading && <h3
-                  className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                >{intro.heading}</h3>}
-                {intro.description && <p>{intro.description}</p>}
-                <PartnerRoll></PartnerRoll>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-      </Layout>
-    )
-  }
+        </section>
+      </div>
+    </Layout>)
 }
+
+PartnersIndexPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+  }),
+}
+
+export default injectIntl(PartnersIndexPage)
+
+
+export const query = graphql`
+      query partnerQuery($locale: String) {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "partner-post" } , language: {eq: $locale}} }
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                language
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                featuredimage {
+                  childImageSharp {
+                    fluid(maxWidth: 120, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    `

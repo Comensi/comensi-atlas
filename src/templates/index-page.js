@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 export const IndexPageTemplate = ({
   image,
@@ -13,11 +14,12 @@ export const IndexPageTemplate = ({
   description,  
   content,
   contentComponent,
+  intl
 
 }) => {
   const PostContent = contentComponent || Content
   return (
-    <div>      
+    <div>           
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -71,12 +73,12 @@ IndexPageTemplate.propTypes = {
   content: PropTypes.string,  
 }
 
-const IndexPage = ({ data }) => {
-  const { markdownRemark: post } = data
+const IndexPage = ({ data, intl }) => {
+  const { markdownRemark: post } = data  
   //const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout>      
       <IndexPageTemplate
         image={post.frontmatter.image}
         title={post.frontmatter.title}
@@ -85,6 +87,7 @@ const IndexPage = ({ data }) => {
         description={post.frontmatter.description}        
         content={post.html}
         contentComponent={HTMLContent}
+        intl={intl}
       />
     </Layout>
   )
@@ -96,11 +99,11 @@ IndexPage.propTypes = {
   }),
 }
 
-export default IndexPage
+export default injectIntl(IndexPage)
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+  query IndexPageTemplate($locale: String) {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" }, language: {eq: $locale} }) {
       html
       frontmatter {
         title

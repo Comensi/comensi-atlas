@@ -1,5 +1,11 @@
 var proxy = require('http-proxy-middleware')
 
+const supportedLanguages = [ `en`, `de` ]
+  
+const defaultLanguage = 'en'
+
+
+
 module.exports = {
   siteMetadata: {
     title: 'COMENSI Neighbourbhood Atlas Platform',
@@ -11,7 +17,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',    
+    'gatsby-plugin-sass',          
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -26,7 +32,7 @@ module.exports = {
         path: `${__dirname}/src/pages`,
         name: 'pages',
       },
-    },
+    },    
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -72,7 +78,18 @@ module.exports = {
           },          
         ],
       },
-    },    
+    },   
+    // i18n
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/intl`,
+        languages: supportedLanguages,
+        defaultLanguage: defaultLanguage,
+        // This prevents gatsby-plugin-intl from auto-redirecting to default language versions
+        redirect: true,
+      },
+    }, 
     {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {

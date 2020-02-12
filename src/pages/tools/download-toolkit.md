@@ -5,9 +5,7 @@ title: Comensi Toolkit
 date: 2020-01-23
 description: Download the Comensi toolkit
 featuredpost: true
-tags: 
-  - toolkit
-  - downloads
+language: en
 
 ---
 ![Toolkit](/img/COMENSI_Cover_small.jpg)

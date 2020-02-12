@@ -2,7 +2,7 @@
 templateKey: atlas-post
 title: Palermo
 featuredpost: false
-
+language: en
 ---
 <!-- end -->
 

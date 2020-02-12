@@ -1,39 +1,24 @@
 import React from 'react'
-
+import PropTypes from 'prop-types'
 import Layout from '../../components/Layout'
-import AtlasRoll from '../../components/AtlasRoll'
+import PreviewCompatibleImage from '../../components/PreviewCompatibleImage'
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
-export default class AtlasIndexPage extends React.Component {
-  render() {
-    let title=null
-    let tagline="Atlases"
-    let description = 'This section is the first prototype of community atlas tested in five neighbourhoods. Each atlas is available in the local language and has been designed to fulfil the requirements of each context. '
-    let intro = {
-      'heading': null,
-      'description' : null,
-    }
-    return (
-      <Layout>
-        <div>
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-4">
+export const AtlasIndexPage = ({ data, intl }) => {
+  const { edges: posts } = data.allMarkdownRemark
+  const titleKey = "atlases-title"
+  const descriptionKey = "atlases-description"
 
-                <div className="intro">
-                  {title &&
-                    <h1
-                      className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-2-widescreen"
-                      style={{
-                        lineHeight: '1',
-                        padding: '0.25em',
-                      }}
-                    >
-                      {title}
-                    </h1>
-                  }
-                  {tagline &&
+  return (
+    <Layout>
+      <div>
+        <section className="section section--gradient">
+          <div className="container">
+            <div className="section">
+              <div className="columns">
+                <div className="column is-4">
+
+                  <div className="intro">
                     <h3
                       className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                       style={{
@@ -41,27 +26,102 @@ export default class AtlasIndexPage extends React.Component {
                         padding: '0.25em',
                       }}
                     >
-                      {tagline}
+                      <FormattedMessage id={titleKey} />
                     </h3>
-                  }
+                  </div>
+                  <div className="content">
+                    <p><FormattedMessage id={descriptionKey} /></p>
+                  </div>
                 </div>
-                <div className="content">
-                  <p>{description}</p>                 
+                <div className="features column is-8">
+                  <div className="articleGrid columns is-multiline">
+                    {posts &&
+                      posts.map(({ node: post }) => (
+                        <div className="is-parent column is-6" key={post.id}>
+                          <article
+                            className={` ${
+                              post.frontmatter.featuredpost ? 'is-featured' : ''
+                              }`}
+                          >
+                            <header>
+                              <p className="post-meta">
+                                <Link
+                                  className="title is-size-5"
+                                  to={post.fields.slug}
+                                >
+                                  {post.frontmatter.title}
+                                </Link>
+                              </p>
+                              {post.frontmatter.featuredimage ? (
+                                <div className="featured-thumbnail">
+                                  <PreviewCompatibleImage
+                                    imageInfo={{
+                                      image: post.frontmatter.featuredimage,
+                                      alt: `featured image thumbnail for post ${
+                                        post.title
+                                        }`,
+                                    }}
+                                  />
+                                </div>
+                              ) : null}
+
+                            </header>
+                            <p>
+                              {post.excerpt}
+                              <br />
+                              <br />
+                            </p>
+                          </article>
+                        </div>
+                      ))}
+                  </div>
                 </div>
-              </div>
-              <div className="features column is-8">
-                {intro.heading && <h3
-                  className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                >{intro.heading}</h3>}
-                {intro.description && <p>{intro.description}</p>}
-                <AtlasRoll></AtlasRoll>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-      </Layout>
-    )
-  }
+        </section>
+      </div>
+    </Layout>)
 }
+
+AtlasIndexPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+  }),
+}
+
+export default injectIntl(AtlasIndexPage)
+
+
+export const query = graphql`
+      query atlasQuery($locale: String) {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "atlas-post" } , language: {eq: $locale}} }
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                language
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                featuredimage {
+                  childImageSharp {
+                    fluid(maxWidth: 120, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    `

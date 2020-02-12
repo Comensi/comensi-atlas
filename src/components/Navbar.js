@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/comensi-logo.png'
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -64,26 +64,26 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
             <Link className="navbar-item" to="/">
-                Home
+               <FormattedMessage id="menu-home" />
               </Link>
              <Link className="navbar-item" to="/partners">
-                About
+               <FormattedMessage id="menu-about" />                
               </Link>
               <Link 
                 className="navbar-item" 
                 to="/tools/"
                 partiallyActive={true}
                 >
-                Toolkit
+                  <FormattedMessage id="menu-toolkit" />                
               </Link>
               <Link className="navbar-item" to="/atlases">
-                Atlases
+                <FormattedMessage id="menu-atlases" />                
               </Link>
               <Link className="navbar-item" to="/handbook">
-                Handbook
+                <FormattedMessage id="menu-handbook" />                
               </Link>                     
               <Link className="navbar-item" to="/contact">
-                Contact
+                 <FormattedMessage id="menu-contact" />                
               </Link>              
             </div>
           </div>

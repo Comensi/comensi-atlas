@@ -2,16 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { injectIntl } from 'gatsby-plugin-intl'
 
 class AtlasRoll extends React.Component {
-  render() {
+  render({intl}) {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="articleGrid columns is-multiline">
+      <div className="articleGrid columns is-multiline">        
         {posts &&
-          posts.map(({ node: post }) => (
+          posts.map(({ node: post }) => (            
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={` ${
@@ -19,6 +20,7 @@ class AtlasRoll extends React.Component {
                 }`}
               >
                 <header>
+                <h1>{post.frontmatter.language}</h1>
                 <p className="post-meta">
                     <Link
                       className="title is-size-5"
@@ -62,6 +64,8 @@ AtlasRoll.propTypes = {
   }),
 }
 
+
+
 export default () => (
   <StaticQuery
     query={graphql`
@@ -78,6 +82,7 @@ export default () => (
                 slug
               }
               frontmatter {
+                language
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
@@ -95,6 +100,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <AtlasRoll data={data} count={count} />}
+    render={injectIntl((data, count, intl) => <AtlasRoll data={data} count={count} intl={intl}/>)}
   />
 )

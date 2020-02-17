@@ -102,8 +102,8 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 
-- name: "pages"
-  label: "Pages"
+- name: "translations"
+  label: "General translations"
   files:
   - file: "src/intl/en.json"
     label: "Main copy - EN "

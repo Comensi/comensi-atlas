@@ -1,7 +1,7 @@
 import React from 'react'
 import github from '../img/github-icon.svg'
 import logo from '../img/comensi-logo.png'
-import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+import { injectIntl, useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -86,6 +86,12 @@ const Navbar = class extends React.Component {
                  <FormattedMessage id="menu-contact" />                
               </Link>              
             </div>
+            <div id="languageSwitcher" style={{position: 'absolute', top: 0, right: 0, fontSize:0.7+'em'}}>
+              <FormattedMessage id="change-language" />:         
+              <a href="/en" style={{padding:5+'px'}}><FormattedMessage id="en" /></a>
+              |   
+              <a href="/de" style={{padding:5+'px'}}><FormattedMessage id="de" /></a>                                        
+            </div>
           </div>
         </div>
       </nav>
@@ -93,4 +99,4 @@ const Navbar = class extends React.Component {
   }
 }
 
-export default Navbar
+export default injectIntl(Navbar)

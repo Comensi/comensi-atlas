@@ -11,7 +11,7 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-- name: "Partner pages - EN"  
+- name: "Partner pages-EN"  
   label: "Partner pages -EN"
   label_singular : "Partner page"
   folder: "src/pages/partners"
@@ -26,7 +26,7 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
 
-- name: "Atlas pages - EN"
+- name: "Atlas pages-EN"
   label: "Atlas pages - EN"
   label_singular: "Atlas page"
   folder: "src/pages/atlases"
@@ -41,7 +41,7 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image , required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
 
-- name: "Tool pages - EN"
+- name: "Tool pages-EN"
   label: "Tool pages -EN"
   label_singular: "Tool page"
   folder: "src/pages/tools"
@@ -56,7 +56,7 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image, , required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
 
-- name: "Partner pages - DE"  
+- name: "Partner pages-DE"  
   label: "Partner pages - DE"
   label_singular : "Partner page"
   folder: "src/pages/partners"
@@ -71,7 +71,7 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
 
-- name: "Atlas pages - DE"
+- name: "Atlas pages-DE"
   label: "Atlas pages - DE"
   label_singular: "Atlas page"
   folder: "src/pages/atlases"
@@ -86,7 +86,7 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image , required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
 
-- name: "Tool pages - DE"
+- name: "Tool pages-DE"
   label: "Tool pages - DE"
   label_singular: "Tool page"
   folder: "src/pages/tools"
@@ -102,5 +102,68 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 
+- name: "pages"
+  label: "Pages"
+  files:
+  - file: "src/intl/en.json"
+      label: "Main copy - EN "
+      name: "translations-EN"
+      fields:              
+        - {label: en, name: en , widget: string}
+        - {label: de, name: de , widget: string}
+        - {label: en, name: en , widget: string}
+        - { label: change-language, name: change-language, widget: string}    
+        - { label: menu-home, name: menu-home, widget: string}
+        - { label: menu-about, name: menu-about, widget: string}
+        - { label: menu-toolkit, name: menu-toolkit, widget: string}
+        - { label: menu-atlases, name: menu-atlases, widget: string}
+        - { label: menu-handbook, name: menu-handbook, widget: string}
+        - { label: menu-contact, name: menu-contact, widget: string}
+        - { label: atlases-title, name: atlases-title, widget: string}
+        - { label: atlases-description, name: atlases-description, widget: string}
+        - { label: partners-title, name: partners-title, widget: string}
+        - { label: partners-description, name: partners-description, widget: string}
+        - { label: tools-title, name: tools-title, widget: string}
+        - { label: tools-description, name: tools-description, widget: string}
+        - { label: handbook-title, name: handbook-title, widget: string}
+        - { label: handbook-description, name: handbook-description, widget: string}
+        - { label: handbook-available, name: handbook-available, widget: string}
+        - { label: form-title, name: form-title, widget: string}
+        - { label: form-name, name: form-name, widget: string}
+        - { label: form-email, name: form-email, widget: string}
+        - { label: form-message, name: form-message, widget: string}
+        - { label: form-send, name: form-send, widget: string}
+        - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
 
-    
+    - file: "src/intl/de.json"
+      label: "Main copy - DE "
+      name: "translations-DE"
+      fields:              
+        - {label: en, name: en , widget: string}
+        - {label: de, name: de , widget: string}
+        - {label: en, name: en , widget: string}
+        - { label: change-language, name: change-language, widget: string}    
+        - { label: menu-home, name: menu-home, widget: string}
+        - { label: menu-about, name: menu-about, widget: string}
+        - { label: menu-toolkit, name: menu-toolkit, widget: string}
+        - { label: menu-atlases, name: menu-atlases, widget: string}
+        - { label: menu-handbook, name: menu-handbook, widget: string}
+        - { label: menu-contact, name: menu-contact, widget: string}
+        - { label: atlases-title, name: atlases-title, widget: string}
+        - { label: atlases-description, name: atlases-description, widget: string}
+        - { label: partners-title, name: partners-title, widget: string}
+        - { label: partners-description, name: partners-description, widget: string}
+        - { label: tools-title, name: tools-title, widget: string}
+        - { label: tools-description, name: tools-description, widget: string}
+        - { label: handbook-title, name: handbook-title, widget: string}
+        - { label: handbook-description, name: handbook-description, widget: string}
+        - { label: handbook-available, name: handbook-available, widget: string}
+        - { label: form-title, name: form-title, widget: string}
+        - { label: form-name, name: form-name, widget: string}
+        - { label: form-email, name: form-email, widget: string}
+        - { label: form-message, name: form-message, widget: string}
+        - { label: form-send, name: form-send, widget: string}
+        - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
+
+
+        

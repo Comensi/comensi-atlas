@@ -11,12 +11,13 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-- name: "Partner pages"  
+- name: "Partner pages - EN"  
   label: "Partner pages"
   label_singular : "Partner page"
   folder: "src/pages/partners"
   create: true
   slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "en"}
   fields:
     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partner-post"}
     - {label: "Language", name: "language", widget: "string"}
@@ -25,11 +26,12 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
 
-- name: "Atlas pages"
+- name: "Atlas pages - EN"
   label: "Atlas pages"
   label_singular: "Atlas page"
   folder: "src/pages/atlases"
   create: true
+  filter : {field: "language", value: "en"}
   slug: "{{slug}}.{{language}}"
   fields:
     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "atlas-post"}
@@ -39,12 +41,13 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image , required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
 
-- name: "Tool pages"
+- name: "Tool pages - EN"
   label: "Tool pages"
   label_singular: "Tool page"
   folder: "src/pages/tools"
   create: true
   slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "en"}
   fields:
     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tool-post"}
     - {label: "Language", name: "language", widget: "string"}
@@ -52,6 +55,52 @@ collections:
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
     - {label: "Featured Image", name: "featuredimage", widget: image, , required: false}
     - {label: "Body", name: "body", widget: "markdown"}    
+
+- name: "Partner pages - DE"  
+  label: "Partner pages"
+  label_singular : "Partner page"
+  folder: "src/pages/partners"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "de"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partner-post"}
+    - {label: "Language", name: "language", widget: "string"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+- name: "Atlas pages - DE"
+  label: "Atlas pages"
+  label_singular: "Atlas page"
+  folder: "src/pages/atlases"
+  create: true
+  filter : {field: "language", value: "de"}
+  slug: "{{slug}}.{{language}}"
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "atlas-post"}
+    - {label: "Language", name: "language", widget: "string"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+- name: "Tool pages - DE"
+  label: "Tool pages"
+  label_singular: "Tool page"
+  folder: "src/pages/tools"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "de"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tool-post"}
+    - {label: "Language", name: "language", widget: "string"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
 
 
     

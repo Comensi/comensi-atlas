@@ -12,7 +12,7 @@ public_folder: /img
 
 collections:
 - name: "Partner pages - EN"  
-  label: "Partner pages"
+  label: "Partner pages -EN"
   label_singular : "Partner page"
   folder: "src/pages/partners"
   create: true
@@ -27,7 +27,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 - name: "Atlas pages - EN"
-  label: "Atlas pages"
+  label: "Atlas pages - EN"
   label_singular: "Atlas page"
   folder: "src/pages/atlases"
   create: true
@@ -42,7 +42,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 - name: "Tool pages - EN"
-  label: "Tool pages"
+  label: "Tool pages -EN"
   label_singular: "Tool page"
   folder: "src/pages/tools"
   create: true
@@ -57,7 +57,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 - name: "Partner pages - DE"  
-  label: "Partner pages"
+  label: "Partner pages - DE"
   label_singular : "Partner page"
   folder: "src/pages/partners"
   create: true
@@ -72,7 +72,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 - name: "Atlas pages - DE"
-  label: "Atlas pages"
+  label: "Atlas pages - DE"
   label_singular: "Atlas page"
   folder: "src/pages/atlases"
   create: true
@@ -87,7 +87,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 - name: "Tool pages - DE"
-  label: "Tool pages"
+  label: "Tool pages - DE"
   label_singular: "Tool page"
   folder: "src/pages/tools"
   create: true

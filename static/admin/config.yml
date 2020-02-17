@@ -106,64 +106,64 @@ collections:
   label: "Pages"
   files:
   - file: "src/intl/en.json"
-      label: "Main copy - EN "
-      name: "translations-EN"
-      fields:              
-        - {label: en, name: en , widget: string}
-        - {label: de, name: de , widget: string}
-        - {label: en, name: en , widget: string}
-        - { label: change-language, name: change-language, widget: string}    
-        - { label: menu-home, name: menu-home, widget: string}
-        - { label: menu-about, name: menu-about, widget: string}
-        - { label: menu-toolkit, name: menu-toolkit, widget: string}
-        - { label: menu-atlases, name: menu-atlases, widget: string}
-        - { label: menu-handbook, name: menu-handbook, widget: string}
-        - { label: menu-contact, name: menu-contact, widget: string}
-        - { label: atlases-title, name: atlases-title, widget: string}
-        - { label: atlases-description, name: atlases-description, widget: string}
-        - { label: partners-title, name: partners-title, widget: string}
-        - { label: partners-description, name: partners-description, widget: string}
-        - { label: tools-title, name: tools-title, widget: string}
-        - { label: tools-description, name: tools-description, widget: string}
-        - { label: handbook-title, name: handbook-title, widget: string}
-        - { label: handbook-description, name: handbook-description, widget: string}
-        - { label: handbook-available, name: handbook-available, widget: string}
-        - { label: form-title, name: form-title, widget: string}
-        - { label: form-name, name: form-name, widget: string}
-        - { label: form-email, name: form-email, widget: string}
-        - { label: form-message, name: form-message, widget: string}
-        - { label: form-send, name: form-send, widget: string}
-        - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
+    label: "Main copy - EN "
+    name: "translations-EN"
+    fields:              
+      - {label: en, name: en , widget: string}
+      - {label: de, name: de , widget: string}
+      - {label: en, name: en , widget: string}
+      - { label: change-language, name: change-language, widget: string}    
+      - { label: menu-home, name: menu-home, widget: string}
+      - { label: menu-about, name: menu-about, widget: string}
+      - { label: menu-toolkit, name: menu-toolkit, widget: string}
+      - { label: menu-atlases, name: menu-atlases, widget: string}
+      - { label: menu-handbook, name: menu-handbook, widget: string}
+      - { label: menu-contact, name: menu-contact, widget: string}
+      - { label: atlases-title, name: atlases-title, widget: string}
+      - { label: atlases-description, name: atlases-description, widget: string}
+      - { label: partners-title, name: partners-title, widget: string}
+      - { label: partners-description, name: partners-description, widget: string}
+      - { label: tools-title, name: tools-title, widget: string}
+      - { label: tools-description, name: tools-description, widget: string}
+      - { label: handbook-title, name: handbook-title, widget: string}
+      - { label: handbook-description, name: handbook-description, widget: string}
+      - { label: handbook-available, name: handbook-available, widget: string}
+      - { label: form-title, name: form-title, widget: string}
+      - { label: form-name, name: form-name, widget: string}
+      - { label: form-email, name: form-email, widget: string}
+      - { label: form-message, name: form-message, widget: string}
+      - { label: form-send, name: form-send, widget: string}
+      - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
 
-    - file: "src/intl/de.json"
-      label: "Main copy - DE "
-      name: "translations-DE"
-      fields:              
-        - {label: en, name: en , widget: string}
-        - {label: de, name: de , widget: string}
-        - {label: en, name: en , widget: string}
-        - { label: change-language, name: change-language, widget: string}    
-        - { label: menu-home, name: menu-home, widget: string}
-        - { label: menu-about, name: menu-about, widget: string}
-        - { label: menu-toolkit, name: menu-toolkit, widget: string}
-        - { label: menu-atlases, name: menu-atlases, widget: string}
-        - { label: menu-handbook, name: menu-handbook, widget: string}
-        - { label: menu-contact, name: menu-contact, widget: string}
-        - { label: atlases-title, name: atlases-title, widget: string}
-        - { label: atlases-description, name: atlases-description, widget: string}
-        - { label: partners-title, name: partners-title, widget: string}
-        - { label: partners-description, name: partners-description, widget: string}
-        - { label: tools-title, name: tools-title, widget: string}
-        - { label: tools-description, name: tools-description, widget: string}
-        - { label: handbook-title, name: handbook-title, widget: string}
-        - { label: handbook-description, name: handbook-description, widget: string}
-        - { label: handbook-available, name: handbook-available, widget: string}
-        - { label: form-title, name: form-title, widget: string}
-        - { label: form-name, name: form-name, widget: string}
-        - { label: form-email, name: form-email, widget: string}
-        - { label: form-message, name: form-message, widget: string}
-        - { label: form-send, name: form-send, widget: string}
-        - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
+  - file: "src/intl/de.json"
+    label: "Main copy - DE "
+    name: "translations-DE"
+    fields:              
+      - {label: en, name: en , widget: string}
+      - {label: de, name: de , widget: string}
+      - {label: en, name: en , widget: string}
+      - { label: change-language, name: change-language, widget: string}    
+      - { label: menu-home, name: menu-home, widget: string}
+      - { label: menu-about, name: menu-about, widget: string}
+      - { label: menu-toolkit, name: menu-toolkit, widget: string}
+      - { label: menu-atlases, name: menu-atlases, widget: string}
+      - { label: menu-handbook, name: menu-handbook, widget: string}
+      - { label: menu-contact, name: menu-contact, widget: string}
+      - { label: atlases-title, name: atlases-title, widget: string}
+      - { label: atlases-description, name: atlases-description, widget: string}
+      - { label: partners-title, name: partners-title, widget: string}
+      - { label: partners-description, name: partners-description, widget: string}
+      - { label: tools-title, name: tools-title, widget: string}
+      - { label: tools-description, name: tools-description, widget: string}
+      - { label: handbook-title, name: handbook-title, widget: string}
+      - { label: handbook-description, name: handbook-description, widget: string}
+      - { label: handbook-available, name: handbook-available, widget: string}
+      - { label: form-title, name: form-title, widget: string}
+      - { label: form-name, name: form-name, widget: string}
+      - { label: form-email, name: form-email, widget: string}
+      - { label: form-message, name: form-message, widget: string}
+      - { label: form-send, name: form-send, widget: string}
+      - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
 
 
-        
+      

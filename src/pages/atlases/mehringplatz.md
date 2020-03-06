@@ -10,3 +10,4 @@ featuredpost: false
 
 [Mehringplatz - English atlas](http://mehringplatz-en.community-atlas.net)
 
+![](/img/OginoKnauss_LOGO_colore.jpg)

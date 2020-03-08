@@ -1,8 +1,9 @@
 ---
 templateKey: atlas-post
 language: en
-title: Mehringplatz Anknipsen - Berlin
+title: Südliche Friedrichstadt -  Berlin
 featuredpost: false
+featuredimage: /img/photo_2020-02-24_23-45-56.jpg
 ---
 <!-- end -->
 
@@ -10,4 +11,4 @@ featuredpost: false
 
 [Mehringplatz - English atlas](http://mehringplatz-en.community-atlas.net)
 
-![](/img/OginoKnauss_LOGO_colore.jpg)
+![]()

@@ -9,6 +9,6 @@ prostoRož is a cultural association based in Ljubljana with a mission to improv
 
 <!-- end -->
 
-![](/img/DSC_7252.jpg =500x)
+![](/img/DSC_7252.jpg)
 
 http://prostoroz.org/en/

@@ -82,9 +82,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/handbook">
                 <FormattedMessage id="menu-handbook" />                
               </Link>                     
-              <Link className="navbar-item" to="/contact">
-                 <FormattedMessage id="menu-contact" />                
-              </Link>              
+              <a className="navbar-item" href="mailto:contact@community-atlas.net"><FormattedMessage id="menu-contact" /></a>              
             </div>
             <div id="languageSwitcher" style={{position: 'absolute', top: 0, right: 0, fontSize:0.7+'em'}}>
               <FormattedMessage id="change-language" />:         

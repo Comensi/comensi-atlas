@@ -17,7 +17,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer 1 has-text-white-ter">
-         <div className="logobar">          
+         <div className="logobar" style={{ 'display':'flex', 'justifyContent':'space-evenly', 'flexWrap':'wrap' }}>          
           <img
             src={logo_erusmus}
             alt="Erasmus"

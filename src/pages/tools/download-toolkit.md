@@ -15,7 +15,7 @@ administrators, community managers and every professional interested in
 activating participatory processes of community engagement in challenging
 urban areas**
 
-[Download the toolkit PDF](https://www.dropbox.com/s/go82ygtku4lofgb/COMENSI_X_web.pdf?dl=1)
+[Download the toolkit PDF](https://www.dropbox.com/s/go82ygtku4lofgb/COMENSI_X_web.pdf?dl=0)
 
 
 

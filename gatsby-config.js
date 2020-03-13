@@ -56,6 +56,12 @@ module.exports = {
             },
           },
           {
+            resolve: "gatsby-remark-normalize-paths",
+            options: {
+              pathFields: ["logos"],
+            },
+          },
+          {
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',

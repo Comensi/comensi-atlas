@@ -4,6 +4,10 @@ language: en
 title: Südliche Friedrichstadt -  Berlin
 featuredpost: false
 featuredimage: /img/photo_2020-02-24_23-45-56.jpg
+logos:
+  - title: Community Atlas
+    image: /img/atlas-only-heavy.png
+    url: http://community-atlas.net     
 ---
 <!-- end -->
 
@@ -11,4 +15,4 @@ featuredimage: /img/photo_2020-02-24_23-45-56.jpg
 
 [Mehringplatz - English atlas](http://mehringplatz-en.community-atlas.net)
 
-![]()
+

@@ -6,14 +6,15 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+import Img from 'gatsby-image'
 
 export const AtlasPostTemplate = ({
   content,
   contentComponent,
   description,
-  tags,
   title,
   helmet,
+  logos
 }) => {
   const PostContent = contentComponent || Content
 
@@ -29,13 +30,15 @@ export const AtlasPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
-            {tags && tags.length ? (
+            {logos && logos.length ? (
               <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
+                <h4><FormattedMessage id="atlases-partner-label"></FormattedMessage></h4>
                 <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                  {logos.map( logo=> (
+                    <li >
+                      <a href={logo.url} title={logo.title}>
+                      <Img alt={logo.title} fixed={logo.image.childImageSharp.fixed}  />     
+                      </a>                 
                     </li>
                   ))}
                 </ul>
@@ -54,6 +57,7 @@ AtlasPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  logos: PropTypes.array
 }
 
 const AtlasPost = ({ data }) => {
@@ -73,9 +77,9 @@ const AtlasPost = ({ data }) => {
               content={`${post.frontmatter.description}`}
             />
           </Helmet>
-        }
-        tags={post.frontmatter.tags}
+        }       
         title={post.frontmatter.title}
+        logos={post.frontmatter.logos}
       />
     </Layout>
   )
@@ -97,9 +101,19 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
-        tags
+        description        
         language
+        logos {
+          title
+          url
+          image {
+              childImageSharp {
+                fixed(width: 100) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+        }  
       }
     }
   }

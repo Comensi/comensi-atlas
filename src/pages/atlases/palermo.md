@@ -1,8 +1,8 @@
 ---
 templateKey: atlas-post
-title: Palermo
-featuredpost: false
 language: en
+title: Il Capo - Monte di pietà  - Palermo
+featuredpost: false
 ---
 <!-- end -->
 

@@ -3,7 +3,7 @@ templateKey: atlas-post
 language: en
 title: Capo - Monte di pietà  - Palermo
 featuredpost: false
-featuredimage: /img/74214458_2437643946354460_5164570574256603136_o.jpg
+featuredimage: /img/Capo-MAP_page-0001.jpg
 logos:
   - image: /img/logo_bond_of_union_orizzontale.png
     title: Bond of Union

@@ -11,9 +11,9 @@ logos:
 ---
 *Mehringplatz Anknipsen* is a digital atlas dedicated to the Südliche Friedrichstadt and the surrounding territories of Kreuzberg and Mitte. <!-- end --> It collects and makes accessible data, memories and visions about the neighbourhood. Its contents are produced through the activities of a laboratory involving citizens and local organisations. The Mehringplatz Anknipsed lab carries its activities through different community hubs of the neighbourhood and has a focus on mapping and narrating local initiatives facilitating the engagement of citizens and the inclusion of disadvantaged subjetcs. 
 
-<script>
-console.log(23)
-</script>
+<style>
+a:hover{ background: red; }
+</style>
 
 [Mehringplatz Anknipsen - Südliche Friedrichstadt, Berlin DE](http://mehringplatz-de.community-atlas.net)
 

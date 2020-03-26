@@ -103,6 +103,146 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}    
 
 
+- name: "Partner pages-IT"  
+  label: "Partner pages -IT"
+  label_singular : "Partner page"
+  folder: "src/pages/partners"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "it"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddit", default: "partner-post"}
+    - {label: "Language", name: "language", widget: "string", default: "it"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+- name: "Atlas pages-IT"
+  label: "Atlas pages - IT"
+  label_singular: "Atlas page"
+  folder: "src/pages/atlases"
+  create: true
+  filter : {field: "language", value: "it"}
+  slug: "{{slug}}.{{language}}"
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddit", default: "atlas-post"}
+    - {label: "Language", name: "language", widget: "string", default: "it"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}   
+    - {label: "Partner logos", name: logos, widget: list, fields: [{label: Title, name: title, widget: string}, {label: URL, name: url, widget: text}, {label: Image, name: image, widget: image}]}
+    
+- name: "Tool pages-IT"
+  label: "Tool pages -IT"
+  label_singular: "Tool page"
+  folder: "src/pages/tools"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "it"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddit", default: "tool-post"}
+    - {label: "Language", name: "language", widget: "string", default: "it"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+
+- name: "Partner pages-PT"  
+  label: "Partner pages -PT"
+  label_singular : "Partner page"
+  folder: "src/pages/partners"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "pt"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddpt", default: "partner-post"}
+    - {label: "Language", name: "language", widget: "string", default: "pt"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+- name: "Atlas pages-PT"
+  label: "Atlas pages - PT"
+  label_singular: "Atlas page"
+  folder: "src/pages/atlases"
+  create: true
+  filter : {field: "language", value: "pt"}
+  slug: "{{slug}}.{{language}}"
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddpt", default: "atlas-post"}
+    - {label: "Language", name: "language", widget: "string", default: "pt"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}   
+    - {label: "Partner logos", name: logos, widget: list, fields: [{label: Title, name: title, widget: string}, {label: URL, name: url, widget: text}, {label: Image, name: image, widget: image}]}
+    
+- name: "Tool pages-PT"
+  label: "Tool pages -PT"
+  label_singular: "Tool page"
+  folder: "src/pages/tools"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "pt"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddpt", default: "tool-post"}
+    - {label: "Language", name: "language", widget: "string", default: "pt"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+- name: "Partner pages-SL"  
+  label: "Partner pages -SL"
+  label_singular : "Partner page"
+  folder: "src/pages/partners"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "sl"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddsl", default: "partner-post"}
+    - {label: "Language", name: "language", widget: "string", default: "sl"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+- name: "Atlas pages-SL"
+  label: "Atlas pages - SL"
+  label_singular: "Atlas page"
+  folder: "src/pages/atlases"
+  create: true
+  filter : {field: "language", value: "sl"}
+  slug: "{{slug}}.{{language}}"
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddsl", default: "atlas-post"}
+    - {label: "Language", name: "language", widget: "string", default: "sl"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}   
+    - {label: "Partner logos", name: logos, widget: list, fields: [{label: Title, name: title, widget: string}, {label: URL, name: url, widget: text}, {label: Image, name: image, widget: image}]}
+    
+- name: "Tool pages-SL"
+  label: "Tool pages -SL"
+  label_singular: "Tool page"
+  folder: "src/pages/tools"
+  create: true
+  slug: "{{slug}}.{{language}}"
+  filter : {field: "language", value: "sl"}
+  fields:
+    - {label: "Template Key", name: "templateKey", widget: "hiddsl", default: "tool-post"}
+    - {label: "Language", name: "language", widget: "string", default: "sl"}
+    - {label: "Title", name: "title", widget: "string"}    
+    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+    - {label: "Featured Image", name: "featuredimage", widget: image, , required: false}
+    - {label: "Body", name: "body", widget: "markdown"}    
+
+
 - name: "translations"
   label: "General translations"
   files:
@@ -112,7 +252,9 @@ collections:
     fields:              
       - {label: en, name: en , widget: string}
       - {label: de, name: de , widget: string}
-      - {label: en, name: en , widget: string}
+      - {label: it, name: it , widget: string}
+      - {label: pt, name: pt , widget: string}
+      - {label: sl, name: sl , widget: string}
       - { label: change-language, name: change-language, widget: string}    
       - { label: menu-home, name: menu-home, widget: string}
       - { label: menu-about, name: menu-about, widget: string}
@@ -144,6 +286,111 @@ collections:
       - {label: en, name: en , widget: string}
       - {label: de, name: de , widget: string}
       - {label: en, name: en , widget: string}
+      - {label: it, name: it , widget: string}
+      - {label: pt, name: pt , widget: string}
+      - {label: sl, name: sl , widget: string}
+      - { label: change-language, name: change-language, widget: string}    
+      - { label: menu-home, name: menu-home, widget: string}
+      - { label: menu-about, name: menu-about, widget: string}
+      - { label: menu-toolkit, name: menu-toolkit, widget: string}
+      - { label: menu-atlases, name: menu-atlases, widget: string}
+      - { label: menu-handbook, name: menu-handbook, widget: string}
+      - { label: menu-contact, name: menu-contact, widget: string}
+      - { label: atlases-title, name: atlases-title, widget: string}
+      - { label: atlases-description, name: atlases-description, widget: string}
+      - { label: atlases-partner-label, name: atlases-partner-label, widget: string}
+      - { label: partners-title, name: partners-title, widget: string}
+      - { label: partners-description, name: partners-description, widget: string}
+      - { label: tools-title, name: tools-title, widget: string}
+      - { label: tools-description, name: tools-description, widget: string}
+      - { label: handbook-title, name: handbook-title, widget: string}
+      - { label: handbook-description, name: handbook-description, widget: string}
+      - { label: handbook-available, name: handbook-available, widget: string}
+      - { label: form-title, name: form-title, widget: string}
+      - { label: form-name, name: form-name, widget: string}
+      - { label: form-email, name: form-email, widget: string}
+      - { label: form-message, name: form-message, widget: string}
+      - { label: form-send, name: form-send, widget: string}
+      - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
+
+  - file: "src/intl/it.json"
+    label: "Main copy - IT "
+    name: "translations-IT"
+    fields:              
+      - {label: en, name: en , widget: string}
+      - {label: de, name: de , widget: string}
+      - {label: en, name: en , widget: string}
+      - {label: it, name: it , widget: string}
+      - {label: pt, name: pt , widget: string}
+      - {label: sl, name: sl , widget: string}
+      - { label: change-language, name: change-language, widget: string}    
+      - { label: menu-home, name: menu-home, widget: string}
+      - { label: menu-about, name: menu-about, widget: string}
+      - { label: menu-toolkit, name: menu-toolkit, widget: string}
+      - { label: menu-atlases, name: menu-atlases, widget: string}
+      - { label: menu-handbook, name: menu-handbook, widget: string}
+      - { label: menu-contact, name: menu-contact, widget: string}
+      - { label: atlases-title, name: atlases-title, widget: string}
+      - { label: atlases-description, name: atlases-description, widget: string}
+      - { label: atlases-partner-label, name: atlases-partner-label, widget: string}
+      - { label: partners-title, name: partners-title, widget: string}
+      - { label: partners-description, name: partners-description, widget: string}
+      - { label: tools-title, name: tools-title, widget: string}
+      - { label: tools-description, name: tools-description, widget: string}
+      - { label: handbook-title, name: handbook-title, widget: string}
+      - { label: handbook-description, name: handbook-description, widget: string}
+      - { label: handbook-available, name: handbook-available, widget: string}
+      - { label: form-title, name: form-title, widget: string}
+      - { label: form-name, name: form-name, widget: string}
+      - { label: form-email, name: form-email, widget: string}
+      - { label: form-message, name: form-message, widget: string}
+      - { label: form-send, name: form-send, widget: string}
+      - { label: footer-disclaimer, name: footer-disclaimer, widget: string}
+
+  - file: "src/intl/pt.json"
+    label: "Main copy - PT "
+    name: "translations-PT"
+    fields:              
+      - {label: en, name: en , widget: string}
+      - {label: de, name: de , widget: string}
+      - {label: en, name: en , widget: string}
+      - {label: it, name: it , widget: string}
+      - {label: pt, name: pt , widget: string}
+      - {label: sl, name: sl , widget: string}
+      - { label: change-language, name: change-language, widget: string}    
+      - { label: menu-home, name: menu-home, widget: string}
+      - { label: menu-about, name: menu-about, widget: string}
+      - { label: menu-toolkit, name: menu-toolkit, widget: string}
+      - { label: menu-atlases, name: menu-atlases, widget: string}
+      - { label: menu-handbook, name: menu-handbook, widget: string}
+      - { label: menu-contact, name: menu-contact, widget: string}
+      - { label: atlases-title, name: atlases-title, widget: string}
+      - { label: atlases-description, name: atlases-description, widget: string}
+      - { label: atlases-partner-label, name: atlases-partner-label, widget: string}
+      - { label: partners-title, name: partners-title, widget: string}
+      - { label: partners-description, name: partners-description, widget: string}
+      - { label: tools-title, name: tools-title, widget: string}
+      - { label: tools-description, name: tools-description, widget: string}
+      - { label: handbook-title, name: handbook-title, widget: string}
+      - { label: handbook-description, name: handbook-description, widget: string}
+      - { label: handbook-available, name: handbook-available, widget: string}
+      - { label: form-title, name: form-title, widget: string}
+      - { label: form-name, name: form-name, widget: string}
+      - { label: form-email, name: form-email, widget: string}
+      - { label: form-message, name: form-message, widget: string}
+      - { label: form-send, name: form-send, widget: string}
+      - { label: footer-disclaimer, name: footer-disclaimer, widget: string} 
+
+  - file: "src/intl/sl.json"
+    label: "Main copy - SL "
+    name: "translations-SL"
+    fields:              
+      - {label: en, name: en , widget: string}
+      - {label: de, name: de , widget: string}
+      - {label: en, name: en , widget: string}
+      - {label: it, name: it , widget: string}
+      - {label: pt, name: pt , widget: string}
+      - {label: sl, name: sl , widget: string}
       - { label: change-language, name: change-language, widget: string}    
       - { label: menu-home, name: menu-home, widget: string}
       - { label: menu-about, name: menu-about, widget: string}

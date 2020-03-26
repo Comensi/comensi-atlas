@@ -1,6 +1,6 @@
 var proxy = require('http-proxy-middleware')
 
-const supportedLanguages = [ `en`, `de` ]
+const supportedLanguages = [ `en`, `de`, `sl`, `it`,  `pt`]
   
 const defaultLanguage = 'en'
 

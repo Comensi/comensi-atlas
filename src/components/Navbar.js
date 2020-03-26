@@ -86,9 +86,15 @@ const Navbar = class extends React.Component {
             </div>
             <div id="languageSwitcher" style={{position: 'absolute', top: 0, right: 0, fontSize:0.7+'em'}}>
               <FormattedMessage id="change-language" />:         
+              <a href="/de" style={{padding:5+'px'}}><FormattedMessage id="de" /></a> 
+              |
               <a href="/en" style={{padding:5+'px'}}><FormattedMessage id="en" /></a>
               |   
-              <a href="/de" style={{padding:5+'px'}}><FormattedMessage id="de" /></a>                                        
+              <a href="/it" style={{padding:5+'px'}}><FormattedMessage id="it" /></a> 
+              |  
+              <a href="/pt" style={{padding:5+'px'}}><FormattedMessage id="pt" /></a>   
+              |              
+              <a href="/sl" style={{padding:5+'px'}}><FormattedMessage id="sl" /></a>                                       
             </div>
           </div>
         </div>

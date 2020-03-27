@@ -2,7 +2,7 @@
 templateKey: atlas-post
 title: Mildmay
 featuredpost: false
-language: sl
+language: it
 
 ---
 <!-- end -->

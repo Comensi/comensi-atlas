@@ -1,6 +1,6 @@
 ---
 templateKey: atlas-post
-language: de
+language: sl
 title: Bairro da Ajuda
 featuredpost: false
 ---

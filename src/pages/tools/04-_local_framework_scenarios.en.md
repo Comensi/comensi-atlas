@@ -1,7 +1,7 @@
 ---
 templateKey: tool-post
 language: en
-title: 04. LOCAL FRAMEWORK SCENARIOS
+title: 04. Local Framework Scenarios
 featuredpost: true
 featuredimage: /img/photo_4.jpg
 ---
@@ -13,6 +13,6 @@ The COMENSI method, engagement methods and techniques have been developed, trial
 * LISBON, AJUDA
 * LONDON BOROUGH OF ISLINGTON
 
- \[Download PDF Part 4]
+[Download PDF Part 4]
 
-  COMENSI_PART_04.pdf
+COMENSI_PART_04.pdf

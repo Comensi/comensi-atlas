@@ -5,7 +5,7 @@ title: 04. Local Framework Scenarios
 featuredpost: true
 featuredimage: /img/photo_4.jpg
 ---
-The COMENSI method, engagement methods and techniques have been developed, trialled and refined within the following five local contexts:
+The COMENSI method, engagement methods and techniques have been developed, trialled and refined within the following five local contexts<!-- end -->:
 
 * PALERMO, CAPO MONTE DI PIETÀ
 * SAVSKO NASELJE, LJUBLJANA

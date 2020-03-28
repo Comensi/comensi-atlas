@@ -1,7 +1,7 @@
 ---
 templateKey: tool-post
 language: en
-title: 01.INTRO
+title: 01. Intro
 featuredpost: true
 featuredimage: /img/photo_1.jpg
 ---

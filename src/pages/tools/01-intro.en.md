@@ -12,3 +12,7 @@ The toolkit comprises three parts:
 - The COMENSI method - an overarching approach to community engagement to guide projects from the embryonic stage of development through to completion and evaluation.
 - A collection of engagement methods, tools and techniques which include descriptions, guidelines and some practical use examples of where these have been applied.
 - Local Framework Scenarios.
+
+[Download PDF Part 1]
+
+COMENSI_PART_01.pdf

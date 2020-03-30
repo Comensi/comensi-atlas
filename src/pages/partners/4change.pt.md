@@ -3,6 +3,7 @@ templateKey: partner-post
 language: pt
 title: 4Change
 featuredpost: false
+featuredimage: /img/IMG_20191029_183041.jpg
 ---
 <!--StartFragment-->
 

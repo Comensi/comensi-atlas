@@ -114,7 +114,7 @@ collections:
   slug: "{{slug}}.{{language}}"
   filter : {field: "language", value: "it"}
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddit", default: "partner-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partner-post"}
     - {label: "Language", name: "language", widget: "string", default: "it"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -129,7 +129,7 @@ collections:
   filter : {field: "language", value: "it"}
   slug: "{{slug}}.{{language}}"
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddit", default: "atlas-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "atlas-post"}
     - {label: "Language", name: "language", widget: "string", default: "it"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -145,7 +145,7 @@ collections:
   slug: "{{slug}}.{{language}}"
   filter : {field: "language", value: "it"}
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddit", default: "tool-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tool-post"}
     - {label: "Language", name: "language", widget: "string", default: "it"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -161,7 +161,7 @@ collections:
   slug: "{{slug}}.{{language}}"
   filter : {field: "language", value: "pt"}
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddpt", default: "partner-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partner-post"}
     - {label: "Language", name: "language", widget: "string", default: "pt"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -176,7 +176,7 @@ collections:
   filter : {field: "language", value: "pt"}
   slug: "{{slug}}.{{language}}"
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddpt", default: "atlas-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "atlas-post"}
     - {label: "Language", name: "language", widget: "string", default: "pt"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -192,7 +192,7 @@ collections:
   slug: "{{slug}}.{{language}}"
   filter : {field: "language", value: "pt"}
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddpt", default: "tool-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tool-post"}
     - {label: "Language", name: "language", widget: "string", default: "pt"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -207,7 +207,7 @@ collections:
   slug: "{{slug}}.{{language}}"
   filter : {field: "language", value: "sl"}
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddsl", default: "partner-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partner-post"}
     - {label: "Language", name: "language", widget: "string", default: "sl"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -222,7 +222,7 @@ collections:
   filter : {field: "language", value: "sl"}
   slug: "{{slug}}.{{language}}"
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddsl", default: "atlas-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "atlas-post"}
     - {label: "Language", name: "language", widget: "string", default: "sl"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
@@ -238,7 +238,7 @@ collections:
   slug: "{{slug}}.{{language}}"
   filter : {field: "language", value: "sl"}
   fields:
-    - {label: "Template Key", name: "templateKey", widget: "hiddsl", default: "tool-post"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tool-post"}
     - {label: "Language", name: "language", widget: "string", default: "sl"}
     - {label: "Title", name: "title", widget: "string"}    
     - {label: "Featured Post", name: "featuredpost", widget: "boolean"}

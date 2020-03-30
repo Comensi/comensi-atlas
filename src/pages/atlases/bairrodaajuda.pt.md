@@ -11,7 +11,7 @@ A Ajuda é uma freguesia portuguesa do município de Lisboa, pertencente à Zona
 \
 O Bairro da Ajuda é um bairro de todos e para todos, ainda com vida no bairro e espírito de vizinhança.\
 \
-O Atlas do Bairro da Ajuda coleta memórias, histórias, idéias e desejos recolhidos junto dos moradores da freguesia da Ajuda em ações participativas - os Laboratórios "Ideias para a Década". A equipe da 4Change facilita a participação e o engajamento dos residentes e das partes interessadas locais.
+O Atlas do Bairro da Ajuda coleta memórias, histórias, idéias e desejos recolhidos junto dos moradores da freguesia da Ajuda em ações participativas - os Laboratórios "Ideias para a Década".
 
 <!--EndFragment--><!-- end -->
 

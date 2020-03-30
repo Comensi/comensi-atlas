@@ -9,7 +9,7 @@ Ajuda is a Portuguese parish in the municipality of Lisbon, belonging to the Wes
 
 Bairro da Ajuda is a neighborhood for everyone, still with neighborhood life and community spirit.
 
-The Atlas of Bairro da Ajuda collects memories, stories, ideas and wishes collected from residents of the parish of Ajuda in participatory actions - the "Ideas for the Decade" Laboratories. The 4Change team facilitates the participation and engagement of residents and local stakeholders.
+The Atlas of Bairro da Ajuda collects memories, stories, ideas and wishes collected from residents of the parish of Ajuda in participatory actions - the "Ideas for the Decade" Laboratories. 
 
 <!-- end -->
 

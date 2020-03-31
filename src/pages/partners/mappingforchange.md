@@ -1,15 +1,11 @@
 ---
 templateKey: partner-post
+language: en
 title: Mapping For Change
 featuredpost: false
-language: en
-
 ---
-A social enterprise owned by University College London. Founded in 2007 with the mission to work with communities and organisations who want to understand, improve and produce information about the places that matter to them.
+Mapping for Change CIC is a social enterprise owned by University College London. Founded in 2007, our mission is to empower individuals, communities and organisations to make a difference to their local area through the use of participatory tools, mapping and geographical information.
 
-<!-- end -->
+
 
 http://mappingforchange.org.uk/
-
-
-

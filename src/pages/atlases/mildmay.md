@@ -1,9 +1,9 @@
 ---
 templateKey: atlas-post
+language: en
 title: Mildmay
 featuredpost: false
-language: en
-
+featuredimage: /img/LGT_Coffee_morning_Mildmay_May_18.jpg
 ---
 <!-- end -->
 

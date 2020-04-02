@@ -1,7 +1,7 @@
 ---
 templateKey: atlas-post
 language: en
-title: Mildmay
+title: Mildmay - London
 featuredpost: false
 featuredimage: /img/LGT_Coffee_morning_Mildmay_May_18.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 templateKey: atlas-post
 language: en
-title: Savsko naselje - Ljubljana
+title: 'Savsko naselje, Ljubljana'
 featuredpost: false
 featuredimage: /img/savc 2.png
 ---

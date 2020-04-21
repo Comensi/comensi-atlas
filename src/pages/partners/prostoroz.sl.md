@@ -1,14 +1,14 @@
 ---
 templateKey: partner-post
 language: sl
-title: prostoRo??
+title: prostoRož
 featuredpost: false
 featuredimage: /img/DSC_7252.jpg
 ---
-prostoRo?? is a cultural association based in Ljubljana with a mission to improve public urban space. prostoRo?? explores public spaces in cities and their meaning for local residents and the society at large. The association pays attention to overlooked public spaces and organizes, rearranges and revitalizes them according to the needs of residents and visitors.
+[prostoRož](https://prostoroz.org/) se ukvarja z vprašanji javnega urbanega prostora. Raziskuje prostor in njegov pomen za lokalne prebivalce in družbo. Pozornost usmerja na pogosto spregledane javne prostore in jih ureja po meri prebivalcev in obiskovalcev mest.
 
 <!-- end -->
 
 ![](/img/DSC_7252.jpg)
 
-http://prostoroz.org/en/
+http://prostoroz.org/

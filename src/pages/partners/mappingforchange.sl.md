@@ -1,15 +1,12 @@
 ---
 templateKey: partner-post
+language: sl
 title: Mapping For Change
 featuredpost: false
-language: sl
-
+featuredimage: /img/workshop_photo_5.jpg
 ---
-A social enterprise owned by University College London. Founded in 2007 with the mission to work with communities and organisations who want to understand, improve and produce information about the places that matter to them.
+Mapping For Change je socialno podjetje v lasti University College London. Ustanovljeno je bil leta 2007 s poslanstvom, da sodeluje s skupnostmi in organizacijami, ki želijo razumeti, izboljšati in ustvarjati informacije o krajih, ki so jim pomembni.
 
 <!-- end -->
 
 http://mappingforchange.org.uk/
-
-
-

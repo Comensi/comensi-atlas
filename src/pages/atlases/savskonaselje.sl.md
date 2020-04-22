@@ -1,13 +1,12 @@
 ---
 templateKey: atlas-post
 language: sl
-title: Savsko naselje
+title: 'Savsko naselje, Ljubljana'
 featuredpost: false
 featuredimage: /img/savc 2.png
 ---
-<!-- end -->
-Savsko naselje is one of the first neighbourhoods constructed in Ljubljana after WW2. It was praised for its design, spatial layout and quality of life it provided for the residents. In the past few decades, the neighbourhood regressed in social, spatial and economic sense. Its public space was decaying, there was no sense of community, crime rate was increasing, central municipal services have moved out of the neighbourhood, and the age and social structure of the residents had changed. Despite that, Savsko naselje is still a place where the local residents have a strong sense of identity with the place and since 2013 when prostoRo?? started an Integrated Urban Regeneration project there, the social cohesion has strengthen and community is slowly being re-built.
+Savsko naselje Atlas je namenjen temu, kako lahko lokalnim prebivalcem pomaga "tukaj in zdaj". V atlasu so zbrane uporabne informacije o različnih zanimivih prostorih, storitvah in lokalnih deležnikih v soseski. <!-- end -->
 
-
+Savsko naselje je eno izmed prvih naselij, zgrajenih v Ljubljani po drugi svetovni vojni. V zadnjih nekaj desetletjih je soseska nazadovala v družbenem, prostorskem in ekonomskem smislu. Njen javni prostor je propadal, bila je brez občutka skupnosti, stopnja kriminala se je višala, odselile so se mestne storitve in socialna struktura prebivalcev se je spremenila. Kljub temu je Savsko naselje še vedno prostor, kjer lokalni prebivalci čutijo močno pripadnost kraju in odkar je prostoRož leta 2013 začel v soseski izvajati projekt Celovite Urbane Prenove, se je socialna kohezija okrepila, lokalna skupnost pa se počasi znova vzpostavlja. 
 
 https://savskonaselje.community-atlas.net/

@@ -9,6 +9,6 @@ logos:
     title: Bond of Union
     url: 'http://www.bondofunion.eu/'
 ---
-Capo Community Atlas is the digital atlas of the neighbourhood Capo of Palermo. <!-- end --> The Atlas of Palermo is the community atlas designed for the neighbourhood Capo - Monte di pietà. It is structured to collect memories, stories, ideas and desires harvested with the residents of the district in a participative actions started in November 2019 and still on going. The team of Bond of Union lead the process facilitating the participation, as well the engagement, of the residents and local stakeholders.
+Capo Atlas je digitalni atlas soseske Capo v Palermu. <!-- end --> Atlas Palerma je atlas skupnosti, ki je zasnovan za sosesko Capo - Monte di pietà. Namenjen je zbiranju spominov, zgodb, idej in želja, ki so jih prispevali lokalnih prebivalci tekom participativnih akcijah, ki so se začele novembra 2019 in še vedno trajajo. Organizacija Bond of Union vodi proces vključevanja lokalnih prebivalcev in deležnikov ter hkrati služi tudi kot posrednik med njimi.
 
 http://palermo.community-atlas.net

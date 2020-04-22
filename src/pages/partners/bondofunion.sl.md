@@ -5,7 +5,7 @@ title: Bond of Union
 featuredpost: false
 featuredimage: /img/65675904_2203688579749999_7828616347037728768_n.jpg
 ---
-BOND OF UNION is a social cooperative that promotes social development and inclusive processes through networking between civil society, third sector, PA. BOU vision is to develop local actions that commit citizens and PA in new and participative forms of urban regeneration. Non-formal education and international cooperation are BOU main tool.
+BOND OF UNION je socialna zadruga, ki spodbuja družbeni razvoj in vključujoče procese preko skupnega mreženjem med civilno družbo, nevladnim sektorjem in javnim sektorjem. Vizija BOU je razviti lokalne ukrepe, ki državljane in odločevalce povežejo v nove in participativne oblike prenove mest. Neformalno izobraževanje in mednarodno sodelovanje sta glavni orodji BOU.
 
 <!-- end -->
 

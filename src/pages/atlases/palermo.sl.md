@@ -9,6 +9,6 @@ logos:
     title: Bond of Union
     url: 'http://www.bondofunion.eu/'
 ---
-Capo Atlas je digitalni atlas soseske Capo v Palermu. <!-- end --> Atlas Palerma je atlas skupnosti, ki je zasnovan za sosesko Capo - Monte di pietà. Namenjen je zbiranju spominov, zgodb, idej in želja, ki so jih prispevali lokalnih prebivalci tekom participativnih akcijah, ki so se začele novembra 2019 in še vedno trajajo. Organizacija Bond of Union vodi proces vključevanja lokalnih prebivalcev in deležnikov ter hkrati služi tudi kot posrednik med njimi.
+Atlas Capo je digitalni atlas soseske Capo v Palermu. <!-- end --> Atlas Palerma je atlas skupnosti, ki je zasnovan za sosesko Capo - Monte di pietà. Namenjen je zbiranju spominov, zgodb, idej in želja, ki so jih prispevali lokalnih prebivalci tekom participativnih akcijah, ki so se začele novembra 2019 in še vedno trajajo. Organizacija Bond of Union vodi proces vključevanja lokalnih prebivalcev in deležnikov ter hkrati služi tudi kot posrednik med njimi.
 
 http://palermo.community-atlas.net

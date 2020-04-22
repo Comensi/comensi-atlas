@@ -1,15 +1,11 @@
 ---
 templateKey: partner-post
+language: sl
 title: Tesserae
 featuredpost: false
-language: sl
-
 ---
-TESSERAE is a platform to connect critical multidisciplinary research, education, art, communication and project development in the urban and social fields. Based in Berlin, Tesser?? works with local communities, independent and non-for profit organisations, as well as local, national and European institutions.
+TESSERAE je platforma za povezovanje kritičnega multidisciplinarnega raziskavanja, izobraževanja, umetnosti, komunikacije in razvoja projektov na mestnem in družbenem področju. S sedežem v Berlinu, Tesseræ sodeluje z lokalnimi skupnostmi, neodvisnimi in neprofitnimi organizacijami ter lokalnimi, nacionalnimi in evropskimi institucijami.
 
 <!-- end -->
 
 http://www.tesserae.eu/
-
-
-

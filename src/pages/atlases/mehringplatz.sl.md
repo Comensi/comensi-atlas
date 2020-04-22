@@ -1,7 +1,7 @@
 ---
 templateKey: atlas-post
 language: sl
-title: S??dliche Friedrichstadt -  Berlin
+title: 'Südliche Friedrichstadt, Berlin'
 featuredpost: false
 featuredimage: /img/photo_2020-02-24_23-45-56.jpg
 logos:
@@ -12,8 +12,8 @@ logos:
     title: oginoknauss
     url: 'http://oginoknauss.org/projects'
 ---
-*Mehringplatz Anknipsen* is a digital atlas dedicated to the S??dliche Friedrichstadt and the surrounding territories of Kreuzberg and Mitte. <!-- end --> It collects and makes accessible data, memories and visions about the neighbourhood. Its contents are produced through the activities of a laboratory involving citizens and local organisations. The Mehringplatz Anknipsed lab carries its activities through different community hubs of the neighbourhood and has a focus on mapping and narrating local initiatives facilitating the engagement of citizens and the inclusion of disadvantaged subjetcs.
+*Mehringplatz Anknipsen* je digitalni atlas, posvečen berlinski soseski Südliche Friedrichstadt in sosednjima območjema Kreuzberg in Mitte. <!-- end --> Altas zbira in omogoča dostop do podatkov, spominov in vizij o soseski. Vsebine atlasa so nastale v sklopu lokalne delavnice- laboratorija, v katerem sodelujejo aktivni prebivalci in lokalne organizacije. Laboratorij Mehringplatz Anknipsed izvaja svoje dejavnosti v različnih skupnostnih središčih v soseski in se osredotoča na mapiranje in beleženje lokalnih pobud za lažje vključevanje državljanov in oseb z manj priložnosti.
 
-[Mehringplatz Anknipsen - S??dliche Friedrichstadt, Berlin DE](http://mehringplatz-de.community-atlas.net)
+[Mehringplatz Anknipsen - Südliche Friedrichstadt, Berlin DE](https://mehringplatz-de.community-atlas.net/)
 
-[Switch On Mehringplatz - EN ](https://mehringplatz-en.community-atlas.net)
+[Preklopi na angleško različico Mehringplatz ](https://mehringplatz-en.community-atlas.net)

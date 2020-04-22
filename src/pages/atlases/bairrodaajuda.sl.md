@@ -5,7 +5,7 @@ title: 'Bairro da Ajuda, Portugalska'
 featuredpost: false
 featuredimage: /img/Ajuda1.JPG
 ---
-Ajuda je ena izmed 25 lokalnih občin/okrajev, ki tvorijo mesto Lizbona. Atlas Ajuda je namenjen zbiranju spominov, zgodb, idej in želja lokalnih prebivalcev , ki bodo vključenih v vizijo za prihodnost soseske. <!-- end -->\
+Ajuda je ena izmed 25 lokalnih okrajev, ki tvorijo mesto Lizbona. Atlas Ajuda je namenjen zbiranju spominov, zgodb, idej in želja lokalnih prebivalcev , ki bodo vključenih v vizijo za prihodnost soseske. <!-- end -->\
 Ajuda je portugalski okraj v občini Lizbona, ki pripada zahodni coni prestolnice, z 2,88 km² površine in 15 617 prebivalci. 
 
 Bairro da Ajuda je soseska za vse, še vedno polna sosedskega življenja in duha skupnosti. 

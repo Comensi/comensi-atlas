@@ -1,7 +1,7 @@
 ---
 templateKey: atlas-post
 language: en
-title: Capo - Monte di pietà  - Palermo
+title: 'Capo - Monte di pietà, Palermo'
 featuredpost: false
 featuredimage: /img/Capo-MAP_page-0001.jpg
 logos:

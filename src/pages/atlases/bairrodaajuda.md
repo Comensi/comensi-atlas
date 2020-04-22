@@ -1,7 +1,7 @@
 ---
 templateKey: atlas-post
 language: en
-title: Bairro da Ajuda
+title: 'Bairro da Ajuda, Portugal'
 featuredpost: false
 featuredimage: /img/Ajuda1.JPG
 ---

@@ -1,12 +1,8 @@
 ---
 templateKey: tool-post
-sticky: 1
-title: Comensi Toolkit 
-date: 2020-01-23
-description: Download the Comensi toolkit
-featuredpost: true
 language: pt
-
+title: Comensi metoda
+featuredpost: true
 ---
 ![Toolkit](/img/COMENSI_Cover_small.jpg)
 

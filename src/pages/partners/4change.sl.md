@@ -5,7 +5,9 @@ title: 4Change
 featuredpost: false
 featuredimage: /img/IMG_20191029_183041.jpg
 ---
-4change je mreža strokovnjakov in katalizatorjev, ki prispevajo k oblikovanju skupnosti, v kateri vsi deležniki skupaj ustvarjajo družbeni učinek. S skupnostjo delimo svoje vire, procese, jezike in meritve. Kot organizacija podpiramo družbeni učinek s pomočjo svetovanja, krepitvijo zmogljivosti, razvojem projektov in izmenjavo znanja.
+4Change je mreža in skupnost strokovnjakov s sedežem v Lizboni, ki si prizadevajo prispevati k pravičnejši in človeški družbi.
+
+Ta izziv jemljemo zelo resno in vedno poskušamo ravnati na način, ki resnično vpliva na ljudi in organizacije s katerimi sodelujemo.
 
 <!-- end -->
 

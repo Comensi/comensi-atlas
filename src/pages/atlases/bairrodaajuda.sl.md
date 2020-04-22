@@ -3,6 +3,7 @@ templateKey: atlas-post
 language: sl
 title: 'Bairro da Ajuda, Portugalska'
 featuredpost: false
+featuredimage: /img/Ajuda1.JPG
 ---
 Ajuda je portugalska župnija v občini Lizbona, ki pripada zahodni coni prestolnice, z 2,88 km² površine in 15 617 prebivalci. 
 
